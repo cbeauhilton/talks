@@ -1,13 +1,14 @@
 ---
 name: build
 
-"on":
+on:
   push:
     branches:
       - master
   pull_request:
     branches:
       - master
+  workflow_dispatch:      
 
 jobs:
   build:
@@ -28,8 +29,8 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Run export
-        run: npm run export
+      # - name: Run export
+      #   run: npm run export
 
       - name: Run redirs
         run: npm run redirs
