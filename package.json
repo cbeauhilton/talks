@@ -10,6 +10,7 @@
     "url": "https://github.com/cbeauhilton/talks/issues",
     "email": "beau@beauhilton.com"
   },
+  "packageManager": "pnpm@7.14.0",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "pnpm -r run build",
