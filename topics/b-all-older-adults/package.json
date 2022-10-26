@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /b-all-older-adults/ --out ../../dist/b-all-older-adults",
+    "export": "slidev export --output ../../dist/b-all-older-adults/b-all-older-adults.pdf"
+  }
+}

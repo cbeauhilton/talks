@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /pheochromocytoma/ --out ../../dist/pheochromocytoma",
+    "export": "slidev export --output ../../dist/pheochromocytoma/pheo.pdf"
+  }
+}

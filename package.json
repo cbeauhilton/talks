@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "talks",
+  "version": "0.0.0",
+  "description": "Collection of talks I have prepared or done so far",
+  "homepage": "https://github.com/cbeauhilton/talks#readme",
+  "author": "Beau Hilton <beau@beauhilton.com>",
+  "repository": "https://github.com/cbeauhilton/talks.git",
+  "bugs": {
+    "url": "https://github.com/cbeauhilton/talks/issues",
+    "email": "beau@beauhilton.com"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "build": "pnpm -r run build",
+    "export": "pnpm -r run export",
+    "redirs": "find dist -iname _redirects | grep -v dist/_redirects | xargs cat >> dist/_redirects"
+  },
+  "dependencies": {
+    "@slidev/cli": "0.36.9",
+    "qrious": "4.0.2",
+    "slidev-theme-academic": "^1.1.0",
+    "slidev-theme-meetup": "1.2.0",
+    "vite": "3.1.8",
+    "vite-svg-loader": "3.6.0"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "1.1.34",
+    "github-fork-ribbon-css": "0.2.3",
+    "playwright-chromium": "1.27.1",
+    "pnpm": "7.14.0",
+    "postcss": "^8.4.18",
+    "rimraf": "3.0.2"
+  }
+}

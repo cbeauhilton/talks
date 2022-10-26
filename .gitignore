@@ -1,0 +1,8 @@
+node_modules
+/dist
+
+components.d.ts
+npm run clean 
+npm run build 
+# npm run export 
+npm run redirs
