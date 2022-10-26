@@ -15,27 +15,27 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-      - name: Checkout source
+      - name: checkout source
         uses: actions/checkout@v3
 
-      - name: Setup nodejs
+      - name: setup nodejs
         uses: actions/setup-node@v3
         with:
           node-version: 16
 
-      - name: Install deps
-        run: npm ci
+      - name: install deps
+        run: pnpm i
 
-      - name: Run build
-        run: npm run build
+      - name: run build
+        run: pnpm run build
 
-      # - name: Run export
-      #   run: npm run export
+      # - name: run export
+      #   run: pnpm run export
 
-      - name: Run redirs
-        run: npm run redirs
+      - name: run redirs
+        run: pnpm run redirs
 
-      - name: Deploy website
+      - name: deploy website
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
