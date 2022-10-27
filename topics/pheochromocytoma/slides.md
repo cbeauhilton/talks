@@ -4,7 +4,7 @@ layout: cover
 class: text-white
 coverAuthor: beau hilton 
 coverAuthorUrl: https://www.beauhilton.com
-coverDate: 2022-10-28T07:30:00
+coverDate: "2022-10-28"
 themeConfig:
   paginationX: r
   paginationY: t
@@ -28,28 +28,48 @@ layout: default
 
 50M with T1DM, chronic inflammatory demyelinating polyneuritis (monthly IVIG), CKD4, pheochromocytoma 2016 s/p resection, presenting for a second opinion for recently discovered metastatic disease.
 
-<style>
-table {
-  font-size: 0.7em;
-}
-</style>
+<v-clicks>
 
-|            |                                                                                                         |
-|:----------:|---------------------------------------------------------------------------------------------------------|
-| 2015-xx-xx | ~50lb weight loss, recurrent diaphoresis and feeling of being hot, extreme fatigue                      |
-| 2015-06-xx | presented to OSH                                                                                        |
-| 2015-06-15 | 10.2x9.0x6.8 cm mass on CTAP, taken to surgery.                                                         |
-|            | L adrenalectomy, L partial nephrectomy, splenectomy. Clean margins. 7 LN w/o cancer.                    |
-|            | Path: mostly necrotic tissue, low Ki-67 (specifics not available).                                      |
-| 2022-08-xx | Routine checks with PCP, endo: plasma normetanephrine 990 (ULN 244), plasma metanephrine <10            |
-| 2022-09-xx | PET dotatate: 1.8cm nodule in surgical bed, multiple b/l pulm nodules, LN: [paraaortic RP, mediastinal] |
-|            | Told to get his affairs in order, consult to VUMC entered                                               |
+- 2015-xx-xx  
+~50lb weight loss, recurrent diaphoresis and feeling of being hot, extreme fatigue                     
+- 2015-06-xx  
+presented to OSH                                                                                        
+- 2015-06-15  
+10.2x9.0x6.8 cm mass on CTAP, taken to surgery.                                                        
+ L adrenalectomy, 
+ L partial nephrectomy, splenectomy. Clean margins. 7 LN w/o cancer.                    
+ Path: mostly necrotic tissue, low Ki-67 (specifics not available).                                      
 
+
+</v-clicks>
 
 ---
 layout: default
 ---
 
+# Case presentation
+
+
+<v-clicks>
+
+- 2022-08-xx  
+plasma normetanephrine elevated
+
+
+- 2022-09-xx  
+PET dotatate: 1.8cm nodule in surgical bed, multiple b/l pulm nodules, LN: [paraaortic RP, mediastinal].
+
+</v-clicks>
+
+<v-clicks>
+
+Told to get his affairs in order, consult to VUMC entered.
+
+</v-clicks>
+
+---
+layout: default
+---
 
 # Case presentation
 
@@ -57,17 +77,25 @@ layout: default
 
 ## Labs
 
+<v-clicks>
+
 - Cr 2.75 (b/l)
 - plasma normetanephrine 990
 - plasma metanephrine <10
 - otherwise bland
 
+</v-clicks>
+
 <br><br>
 
-## Exam notable for ...
+## Exam
 
+
+<v-clicks>
 
 - SBP 140s, at baseline
+
+</v-clicks>
 
 ---
 layout: default
@@ -77,20 +105,38 @@ layout: default
 
 
 ## Pheochromocytoma
+ 
+<v-clicks>
 
-Catecholamine-producing neuroendocrine tumors arising from chromaffin cells of the adrenal medulla or extra-adrenal paraganglia
+*Catecholamine-producing* neuroendocrine tumors 
 
-Usually, when someone says "pheochromocytoma" they are referring specifically to adrenal tumors.
+arising from chromaffin cells 
+of the *adrenal medulla*
+
+or extra-adrenal paraganglia
+
+(usually, when someone says "pheochromocytoma" 
+they are referring specifically to adrenal tumors).
+
+</v-clicks>
 
 ## Paraganglioma
+
+<v-clicks>
 
 Same thing, but not adrenal.
 
 Common sites include carotid body, ...
 
+</v-clicks>
+
 ## PPGL
 
+<v-clicks>
+
 Catch-all term ("pheochromocytoma and paraganglioma")
+
+</v-clicks>
 
 ---
 layout: default
@@ -99,6 +145,13 @@ layout: default
 # Epidemiology
 
 - for PPGL: 2-8/million/year
+
+
+---
+layout: default
+---
+
+# Prognosis
 
 
 ---
