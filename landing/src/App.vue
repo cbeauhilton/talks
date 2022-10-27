@@ -8,15 +8,6 @@ import topics from '../../topics/topics'
       <h1 class="text-3xl pt-12">
         Talks
       </h1>
-
-      <a
-        class="github-fork-ribbon"
-        href="https://github.com/cbeauhilton/talks"
-        data-ribbon="Fork me on GitHub"
-        title="Fork me on GitHub"
-      >
-        Fork me on GitHub
-      </a>
     </div>
   </section>
 
