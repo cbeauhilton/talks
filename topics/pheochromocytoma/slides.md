@@ -9,6 +9,7 @@ themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
+  h2: text-green-600
 title: Pheochromocytoma
 info: |
   # Pheochromocytoma
@@ -25,9 +26,25 @@ layout: default
 
 # Case presentation
 
-75M w hx indolent chronic ITP, 
+50M with T1DM, chronic inflammatory demyelinating polyneuritis (monthly IVIG), CKD4, pheochromocytoma 2016 s/p resection, presenting for a second opinion for recently discovered metastatic disease.
 
-Labs:
+<style>
+table {
+  font-size: 0.7em;
+}
+</style>
+
+|            |                                                                                                         |
+|:----------:|---------------------------------------------------------------------------------------------------------|
+| 2015-xx-xx | ~50lb weight loss, recurrent diaphoresis and feeling of being hot, extreme fatigue                      |
+| 2015-06-xx | presented to OSH                                                                                        |
+| 2015-06-15 | 10.2x9.0x6.8 cm mass on CTAP, taken to surgery.                                                         |
+|            | L adrenalectomy, L partial nephrectomy, splenectomy. Clean margins. 7 LN w/o cancer.                    |
+|            | Path: mostly necrotic tissue, low Ki-67 (specifics not available).                                      |
+| 2022-08-xx | Routine checks with PCP, endo: plasma normetanephrine 990 (ULN 244), plasma metanephrine <10            |
+| 2022-09-xx | PET dotatate: 1.8cm nodule in surgical bed, multiple b/l pulm nodules, LN: [paraaortic RP, mediastinal] |
+|            | Told to get his affairs in order, consult to VUMC entered                                               |
+
 
 ---
 layout: default
@@ -36,13 +53,28 @@ layout: default
 
 # Case presentation
 
-Exam notable for ...
+<br>
+
+## Labs
+
+- Cr 2.75 (b/l)
+- plasma normetanephrine 990
+- plasma metanephrine <10
+- otherwise bland
+
+<br><br>
+
+## Exam notable for ...
+
+
+- SBP 140s, at baseline
 
 ---
 layout: default
 ---
 
 # Terminology
+
 
 ## Pheochromocytoma
 
@@ -54,7 +86,7 @@ Usually, when someone says "pheochromocytoma" they are referring specifically to
 
 Same thing, but not adrenal.
 
-Common sites include carotid body, ***.
+Common sites include carotid body, ...
 
 ## PPGL
 
@@ -73,10 +105,15 @@ layout: default
 layout: default
 ---
 
+# Management
 
-<Footnotes separator>
-  <Footnote :number=1><a href="https://doi.org/10.1186/s43046-022-00116-5" rel="noreferrer" target="_blank"></a></Footnote>
-</Footnotes>
+## Observation
+
+## Active
+
+
+
+
 ---
 layout: index
 indexEntries:
@@ -89,5 +126,5 @@ indexEntries:
 indexRedirectType: external
 ---
 
-# index
+# Sources
 

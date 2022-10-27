@@ -1,0 +1,11 @@
+
+
+h1 {
+  @apply text-green-600;
+}
+
+h2 {
+  @apply text-pink-700;
+}
+
+
