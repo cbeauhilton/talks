@@ -4,76 +4,45 @@ layout: cover
 class: text-white
 coverAuthor: beau hilton 
 coverAuthorUrl: https://www.beauhilton.com
-coverDate: "2022-xx-xx"
+coverDate: "2022-12-16"
 themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
-title: template!
+title: Kaposi Sarcoma
 info: |
   # Template
-  Case Conference 2022-xx-xx, [Beau Hilton](https://www.beauhilton.com)
+  Case Conference 2022-12-16, [Beau Hilton](https://www.beauhilton.com)
 
 ---
 
-# Topic of great interest and deep import
-
----
-
-# Setup js
-
-Don't forget to add the entry to `topics.js`
-
-```js {1,5-9}
-import <<Something>> from "./<<something>>/assets/logo.svg?url";
-import Octopus from "./template/assets/logo.svg?url";
-
-export default [
-  {
-    title: '<<Something>>',
-    logo: <<Something>>,
-    route: '/<<something>>/',
-  },
-  {
-    title: 'template',
-    logo: Octopus,
-    route: '/template/',
-  },
-].sort((a,b) => (a.title < b.title) ? -1 : ((a.title > b.title) ? 1 : 0))
-```
-
----
-
-# Setup json
-
-`package.json`
-
-```json {6-7}
-{
-  "version": "0.0.0",
-  "private": false,
-  "scripts": {
-    "dev": "slidev",
-    "build": "slidev build --base /<<something>>/ --out ../../dist/<<something>>",
-    "export": "slidev export --output ../../dist/<<something>>/<<something>>.pdf"
-  }
-}
-
-```
+# Kaposi Sarcoma (Draft)
 
 ---
 
 # Case presentation
 
-Once upon a time...
+34M w HIV not yet on HAART...
 
 ---
 
 # Case presentation
+
+## Exam
 
 <v-clicks>
 
-Exam notable for ...
+Notable for ...
+
+- lesions
+
+</v-clicks>
+
+## Labs
+
+<v-clicks>
+
+- CD4
 
 </v-clicks>
 
@@ -81,7 +50,10 @@ Exam notable for ...
 
 # Questions
 
-How.<sup>1</sup>
+- How is KS staged?<sup>1</sup>
+- How often is KS refractory to immune reconstitution?
+- What are the rates of IRIS? Any clues to who will develop?
+- What is the role of locoregional therapy?
 
 <Footnotes separator>
   <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Footnote</a></Footnote>
@@ -131,9 +103,9 @@ figureUrl: http://placekitten.com/200/300
 ---
 layout: index
 indexEntries:
-  - { title: "HemOnc.org entry", uri: "https://hemonc.org" }
-  - { title: "NCCN Guidelines", uri: "https://www.nccn.org/professionals/physician_gls" }
-  - { title: "PathologyOutline", uri: "https://www.pathologyoutlines.com" }
+  - { title: "HemOnc.org entry", uri: "https://hemonc.org/wiki/Kaposi_sarcoma" }
+  - { title: "NCCN Guidelines", uri: "https://www.nccn.org/professionals/physician_gls/pdf/kaposi.pdf" }
+  - { title: "PathologyOutlines", uri: "https://www.pathologyoutlines.com/topic/softtissuekaposi.html" }
   - { title: "", uri: "" }
   - { title: "", uri: "" }
   - { title: "", uri: "" }

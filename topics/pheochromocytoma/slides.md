@@ -9,7 +9,6 @@ themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
-  h2: text-green-600
 title: Pheochromocytoma
 info: |
   # Pheochromocytoma

@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /kaposi/ --out ../../dist/kaposi",
+    "export": "slidev export --output ../../dist/kaposi/kaposi.pdf"
+  }
+}

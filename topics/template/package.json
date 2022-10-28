@@ -3,7 +3,7 @@
   "private": false,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /pheochromocytoma/ --out ../../dist/pheochromocytoma",
-    "export": "slidev export --output ../../dist/pheochromocytoma/pheo.pdf"
+    "build": "slidev build --base /template/ --out ../../dist/template",
+    "export": "slidev export --output ../../dist/template/template.pdf"
   }
 }
