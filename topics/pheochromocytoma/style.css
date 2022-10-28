@@ -1,10 +1,18 @@
 
+.slidev-layout a{
+  border-style: inherit
+}
+
+a {
+  @apply text-sky-700;
+}
 
 h1 {
   @apply text-green-600;
 }
 
-h2 {
+.slidev-layout h2 {
+  font-size: 1.6em; 
   @apply text-pink-700;
 }
 
