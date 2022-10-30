@@ -5,7 +5,7 @@ import Octopus from "./template/assets/logo.svg?url";
 
 export default [
   {
-    title: '2022-09-09 - B-All in Older Adults',
+    title: '2022-09-09 - B-ALL in Older Adults',
     logo: BALLinOlderAdults,
     route: '/b-all-older-adults/',
   },
