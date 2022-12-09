@@ -1,6 +1,6 @@
 import BALLinOlderAdults from "./b-all-older-adults/assets/logo.svg?url";
 import Pheochromocytoma from "./pheochromocytoma/assets/logo.svg?url";
-import InductionHNSCC from "./induction-hnscc/assets/logo.svg?url";
+import InductionHNSCC from "./template/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
