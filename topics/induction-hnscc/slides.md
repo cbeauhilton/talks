@@ -9,20 +9,19 @@ themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
-title: Kaposi Sarcoma
+title: Induction for Head and Neck SCC
 info: |
   # Template
   Case Conference 2022-12-16, [Beau Hilton](https://www.beauhilton.com)
 
 ---
 
-# Kaposi Sarcoma (Draft)
+# Induction Chemotherapy for Locally Advanced Head and Neck Squamous Cell Carcinoma
 
 ---
 
 # Case presentation
 
-34M w HIV not yet on HAART...
 
 ---
 
@@ -42,7 +41,7 @@ Notable for ...
 
 <v-clicks>
 
-- CD4
+
 
 </v-clicks>
 
@@ -50,10 +49,11 @@ Notable for ...
 
 # Questions
 
-- How is KS staged?<sup>1</sup>
-- How often is KS refractory to immune reconstitution?
-- What are the rates of IRIS? Any clues to who will develop?
-- What is the role of locoregional therapy?
+- What is the difference between induction and neoadjuvant therapy?
+- When is induction a good idea?<sup>1</sup>
+- When is it a bad idea?
+- What regimens are available/have been studied?
+- How do I select a regimen for a given patient and situation?
 
 <Footnotes separator>
   <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Footnote</a></Footnote>
@@ -103,9 +103,9 @@ figureUrl: http://placekitten.com/200/300
 ---
 layout: index
 indexEntries:
-  - { title: "HemOnc.org entry", uri: "https://hemonc.org/wiki/Kaposi_sarcoma" }
-  - { title: "NCCN Guidelines", uri: "https://www.nccn.org/professionals/physician_gls/pdf/kaposi.pdf" }
-  - { title: "PathologyOutlines", uri: "https://www.pathologyoutlines.com/topic/softtissuekaposi.html" }
+  - { title: "HemOnc.org entry", uri: "https://hemonc.org/wiki/Head_and_neck_cancer#Locally_advanced_disease.2C_induction" }
+  - { title: "NCCN Guidelines", uri: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1437" }
+  - { title: "PathologyOutlines", uri: "https://www.pathologyoutlines.com/oralcavity.html" }
   - { title: "", uri: "" }
   - { title: "", uri: "" }
   - { title: "", uri: "" }

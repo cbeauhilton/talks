@@ -1,6 +1,6 @@
 import BALLinOlderAdults from "./b-all-older-adults/assets/logo.svg?url";
 import Pheochromocytoma from "./pheochromocytoma/assets/logo.svg?url";
-import Kaposi from "./kaposi/assets/logo.svg?url";
+import InductionHNSCC from "./induction-hnscc/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
@@ -15,9 +15,9 @@ export default [
     route: '/pheochromocytoma/',
   },
   {
-    title: '2022-12-16 - Kaposi Sarcoma (Draft)',
-    logo: Kaposi,
-    route: '/kaposi/',
+    title: '2022-12-16 - Induction for H&N SCC',
+    logo: InductionHNSCC,
+    route: '/induction-hnscc/',
   },
   {
     title: 'template',
