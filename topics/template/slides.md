@@ -20,7 +20,7 @@ info: |
 
 ---
 
-# Setup js
+# Set up js
 
 Don't forget to add the entry to `topics.js`
 
@@ -44,9 +44,11 @@ export default [
 
 ---
 
-# Setup json
+# Set up package.json
 
 `package.json`
+
+`<<something>>` goes in *4* places below.
 
 ```json {6-7}
 {

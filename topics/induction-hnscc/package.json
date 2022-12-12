@@ -3,7 +3,7 @@
   "private": false,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /kaposi/ --out ../../dist/induction-hnscc",
+    "build": "slidev build --base /induction-hnscc/ --out ../../dist/induction-hnscc",
     "export": "slidev export --output ../../dist/induction-hnscc/induction-hnscc.pdf"
   }
 }
