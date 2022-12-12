@@ -2,16 +2,19 @@
 import topics from '../../topics/topics'
 </script>
 
-<template>
-  <section class="bg-gray-700">
-    <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
-      <h1 class="text-3xl pt-12">
-        Talks
-      </h1>
-    </div>
-  </section>
+<style scoped>
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 
-  <div class="max-w-screen-xl mx-auto container">
+  .card .card-logo {
+    height: 125px;
+  }
+</style>
+
+<template>
     <div class="flex flex-wrap">
       <div class="sm:w-1/3 w-1/2 flex flex-col" v-for="topic in topics" v-bind:key="topic.title">
         <div class="mb-0 sm:mb-0 lg:mb-0 m-2 sm:m-6 lg:m-8 border-3 rounded-xl border-gray-800 card">
@@ -24,7 +27,7 @@ import topics from '../../topics/topics'
           </div>
           <div class="card-content bg-gray-700">
             <h3 class="m-4">
-              <a :href="topic.route" class="text-white-500">
+              <a :href="topic.route" class="text-lg text-white-500">
                 {{ topic.title }}
               </a>
             </h3>
@@ -32,23 +35,5 @@ import topics from '../../topics/topics'
         </div>
       </div>
     </div>
-  </div>
 </template>
 
-<style scoped>
-  h1,
-  h2,
-  h3 a {
-    color: #fff;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .card .card-logo {
-    height: 250px;
-  }
-</style>
