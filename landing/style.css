@@ -178,7 +178,9 @@ a.nav-active {
     font-weight: 200;
 }
 
-nav a { text-decoration: none; }
+nav a { text-decoration: none; 
+        color: var(--Accent2-color);
+}
 
 a.here { text-decoration: none; }
 
