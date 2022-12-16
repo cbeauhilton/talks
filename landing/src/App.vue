@@ -7,11 +7,17 @@ import topics from '../../topics/topics'
     display: flex;
     flex-direction: column;
     height: 100%;
+    hyphens: auto;
   }
 
   .card .card-logo {
     height: 125px;
   }
+
+  .card-logo {
+    filter: invert(100%);
+  }
+
 </style>
 
 <template>

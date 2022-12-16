@@ -1,4 +1,3 @@
-
 .slidev-layout a{
   border-style: inherit
 }
@@ -16,4 +15,8 @@ h1 {
   @apply text-pink-700;
 }
 
-
+iframe {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
