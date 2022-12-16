@@ -205,9 +205,7 @@ Our patient:
 ---
 
 
-# ICT through the ages
-
-## 2020s
+# ICT today
 
 <v-clicks>
 
