@@ -172,7 +172,7 @@ Similar case on Radiopaedia:
 <v-clicks>
 
 - ICT + CCRT vs CCRT alone
-- OS doesn't improve, toxicity does
+- OS doesn't increase, toxicity does
 <img src="/shared/ICT_vs_CCRT_2000s.png" class="h-80 rounded "/>
 - nuanced (locoregional vs distant recurrence)
 - later meta-analyses suggest perhaps TPF+CCRT has benefit over CCRT alone (fitter patients?)
