@@ -223,6 +223,16 @@ Our patient:
 
 </v-clicks>
 
+---
+
+
+# talking points that came up after the talk
+
+
+- gem-cis ICT with CCRT, study out of China, good results (h/t Cody Lebeck Lee - also v good question about generalizability given high EBV burden in Asian populations)
+- QUAD shot radiotherapy, highly targeted RT (h/t Dixon Dorand)
+- dental procedures wrt timing of RT, may need to start ICT to bridge until dental procedures are done plus ~2wks (h/t Ronak Mistry)
+
 
 ---
 layout: index
