@@ -13,17 +13,18 @@
   "packageManager": "pnpm@7.14.0",
   "scripts": {
     "clean": "rimraf dist/",
+    "install": "echo 'pnpm i' not being run",
     "build": "pnpm -r run build",
     "export": "pnpm -r run export",
     "redirs": "find dist -iname _redirects | grep -v dist/_redirects | xargs cat >> dist/_redirects",
-    "mis": "pnpm run clean && pnpm run build && pnpm run redirs"
+    "mis": "pnpm run clean && pnpm run install && pnpm run build && pnpm run redirs"
   },
   "dependencies": {
     "@slidev/cli": "0.36.9",
     "qrious": "4.0.2",
     "slidev-theme-academic": "^1.1.0",
     "slidev-theme-meetup": "1.2.0",
-    "vite": "3.1.8",
+    "vite": "3.2.0",
     "vite-svg-loader": "3.6.0"
   },
   "devDependencies": {
