@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /anaplastic-thyroid/ --out ../../dist/anaplastic-thyroid",
+    "export": "slidev export --output ../../dist/anaplastic-thyroid/anaplastic-thyroid.pdf"
+  }
+}
