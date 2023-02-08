@@ -13,26 +13,20 @@
   "packageManager": "pnpm@7.14.0",
   "scripts": {
     "clean": "rimraf dist/",
-    "install": "echo 'pnpm i' not being run",
     "build": "pnpm -r run build",
     "export": "pnpm -r run export",
     "redirs": "find dist -iname _redirects | grep -v dist/_redirects | xargs cat >> dist/_redirects",
-    "mis": "pnpm run clean && pnpm run install && pnpm run build && pnpm run redirs"
+    "mis": "pnpm run clean && pnpm run build && pnpm run redirs"
   },
   "dependencies": {
-    "@slidev/cli": "0.36.9",
-    "qrious": "4.0.2",
-    "slidev-theme-academic": "^1.1.0",
+    "@slidev/cli": "^0.40.2",
+    "rimraf": "^4.1.2",
+    "slidev-theme-academic": "^1.1.1",
     "slidev-theme-meetup": "1.2.0",
-    "vite": "3.2.0",
-    "vite-svg-loader": "3.6.0"
+    "vite-svg-loader": "^4.0.0"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "1.1.34",
     "github-fork-ribbon-css": "0.2.3",
-    "playwright-chromium": "1.27.1",
-    "pnpm": "7.14.0",
-    "postcss": "^8.4.18",
-    "rimraf": "3.0.2"
+    "postcss": "^8.4.21"
   }
 }

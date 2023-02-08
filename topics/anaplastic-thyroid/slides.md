@@ -70,29 +70,8 @@ figureUrl: http://placekitten.com/200/300
 
 # Overview
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
-.tg td{border-color:black;border-style:solid;border-width:1px; sans-serif;font-size:10px;
-  overflow:hidden;padding:5px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px; sans-serif;font-size:19px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-head{text-align:center;vertical-align:bottom}
-.tg .tg-row-head{text-align:center;vertical-align:center}
-.tg .tg-0lax{text-align:left;vertical-align:bottom}
-.tg .tg-0pky{text-align:left;vertical-align:top}
 
-li {
-    list-style-type: circle;
-}
-
-li li {
-    list-style-type: square;
-}
-
-@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
-</style>
-
-<div class="tg-wrap"><table class="tg">
+<div><table class="tg">
 <thead>
   <tr>
     <th class="tg-head" colspan="4">High Grade and Anaplastic Thyroid Carcinomas</th>
@@ -142,12 +121,12 @@ li li {
   <tr>
     <td class="tg-row-head">IHC</td>
     <td class="tg-0lax" colspan="2">
-      <li>  CK+ in 100% </li>
+      <li> CK+ in 100% </li>
       <li> TTF-1, PAX8, TG + in 100% (markers of thyroid follicular cell differentiation)</li>
       <li> p53 abnormality is uncommon (~10%)</li>
     </td>
     <td class="tg-0lax">
-      <li>  CK+ in 75%</li>
+      <li> CK+ in 75%</li>
       <li> TTF-1+ in 30%, PAX8+ in 54-70%, TG -ve</li>
       <li> p53 abnormality is common (50%)</li>
     </td>
@@ -155,7 +134,7 @@ li li {
   <tr>
     <td class="tg-row-head">Mutations</td>
     <td class="tg-0lax">
-      <li>  RAS 6-30%</li>
+      <li> RAS 6-30%</li>
       <li> BRAF 53-81%</li>
     </td>
     <td class="tg-0lax">
