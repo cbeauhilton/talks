@@ -1,6 +1,7 @@
 import BALLinOlderAdults from "./b-all-older-adults/assets/logo.svg?url";
 import Pheochromocytoma from "./pheochromocytoma/assets/logo.svg?url";
 import InductionHNSCC from "./template/assets/logo.svg?url";
+import AnaplasticThyroid from "./template/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
@@ -20,7 +21,12 @@ export default [
     route: '/induction-hnscc/',
   },
   {
-    title: 'template',
+    title: '2023-02-10 - Anaplastic Thyroid Carcinoma',
+    logo: AnaplasticThyroid,
+    route: '/anaplastic-thyroid/',
+  },
+  {
+    title: '00 template',
     logo: Octopus,
     route: '/template/',
   },
