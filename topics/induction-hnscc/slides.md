@@ -138,7 +138,7 @@ Similar case on Radiopaedia:
 
 - Concurrent Cisplatin-based chemoRadioTherapy (CCRT)
 
-<img src="/shared/ICT_vs_CCRT_1990s.png" class="h-50 rounded "/>
+<img src="/images/ICT_vs_CCRT_1990s.png" class="h-50 rounded "/>
 
 </v-clicks>
 
@@ -157,7 +157,7 @@ Similar case on Radiopaedia:
 - European study (TAX323) had RT afterward, American Study (TAX324) had CCRT afterward. 
 
 <br>
-<img src="/shared/TAX324_TAX323_20221209151920.png" class="h-80 rounded "/>
+<img src="/images/TAX324_TAX323_20221209151920.png" class="h-80 rounded "/>
 
 </v-clicks>
 
@@ -173,7 +173,7 @@ Similar case on Radiopaedia:
 
 - ICT + CCRT vs CCRT alone
 - OS doesn't increase, toxicity does
-<img src="/shared/ICT_vs_CCRT_2000s.png" class="h-80 rounded "/>
+<img src="/images/ICT_vs_CCRT_2000s.png" class="h-80 rounded "/>
 - nuanced (locoregional vs distant recurrence)
 - later meta-analyses suggest perhaps TPF+CCRT has benefit over CCRT alone (fitter patients?)
 
