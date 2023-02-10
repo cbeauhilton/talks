@@ -2,8 +2,11 @@
 theme: academic
 layout: cover
 class: text-white
-coverAuthor: beau hilton 
+coverAuthor:  beau hilton 
 coverAuthorUrl: https://www.beauhilton.com
+coverBackgroundUrl: ./images/sic_hunt_dracones.png
+coverBackgroundSource: Hunt-Lenox Globe (1510), Rare Book Division, New York Public Library
+coverBackgroundSourceUrl: https://digitalcollections.nypl.org/items/b631f622-fb00-7d51-e040-e00a180652f7
 coverDate: "2023-02-10"
 themeConfig:
   paginationX: r
@@ -24,52 +27,184 @@ info: |
 
 # Case presentation
 
-Once upon a time...
+73M w CAD (MI x1, no interventions), 
+T2DM (not on insulin), 
+hx smoking (0.3 ppd x 45y, quit 10y ago), 
+p/w 50lb weight loss, 
+dysphagia, 
+~4mo enlarging neck mass, 
+found to have AKI and large neck mass on imaging.
+
+## TImeline 
+
+<v-clicks>
+
+- 2022-04 intermittent sinus issues began, multiple courses of abx, voice hoarse
+- 2022-07-12 PCP visit: noted 36lb weight loss since January. Dysphagia at times. Left face hurts when he lies down. Nontender thryomegaly present on exam. TSH 7.14
+- 2022-07-13 US thyroid: left lobe heterogenous and 6.8x5.6x4.4 (R lobe 3.4x1.3x1.4)
+- 2022-08-14 presented to VUMC
+
+</v-clicks>
+
+<Footnotes separator>
+  <Footnote>Details modified, omitted, added, and otherwise fudged to protect patient privacy.</Footnote>
+</Footnotes>
 
 ---
 
 # Case presentation
 
+## Timeline
+
 <v-clicks>
 
-Exam notable for ...
+- 2022-08-15 FNA: ATC vs PDTC, but need more tissue for confirmation and ancillary testing
+- 2022-08-19 Core bx:
+  - Gross: Sections show an infiltrative malignant neoplasm composed primarily of plump, epithelioid and spindle cells with pleomorphic nuclei, mitotic activity, and background acute and chronic inflammation. In this tumor component, there is no appreciable nesting, squamous, glandular, or other differentiation. There is, however, a focus of a more well-differentiated neoplasm in nests, cords, and small follicles, a few with colloid, which is morphologically consistent with a follicular neoplasm.
+  - IHC: +PAX-8 (nested foci and spindled component strong and extensive) and TTF-1 (nested foci strong and extensive and spindled component more focal).  The nested foci are strongly and extensively positive for cytokeratins AE1/AE3 and 8/18 while the spindled component is negative for both cytokeratins.
+- 2022-08-21 BRAF PCR: + for c.1799T>A (p. V600E)
 
+</v-clicks>
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/atc-pet.jpg
+---
+
+# Case presentation
+
+CT neck with large left-sided thyroid mass, FDG-PET concordant, with some focal pulmonary avidity.
+
+- [image source](https://doi.org/10.2147/OTT.S223727)
+- [interactive imaging, representative case](https://radiopaedia.org/cases/anaplastic-thyroid-carcinoma?lang=us)
+
+---
+
+
+# Case presentation
+
+## Tumor board
+
+<v-clicks>
+
+- Surgery: not a surgical candidate (mostly tumor factors)
+- RT: planned
+- Med onc: let's talk
+
+</v-clicks>
+<br>
+
+
+<v-clicks>
+
+## And then...
+
+- PEG placed
+- many discussions w primary, med onc, family
+- home w hospice
+- died at home 3mo later
+  - ~11mo from first sx (weight loss)
+  - ~6mo from notable thyroid mass
+  - ~4mo from tissue dx
+  
 </v-clicks>
 
 ---
 
 # Questions
 
-How.<sup>1</sup>
 
-<Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Footnote</a></Footnote>
-</Footnotes>
+- What is ATC?
+- Why is it so gnarly?
+- What is the prognosis?
+- What are the key details of workup that change management?
+  - What kind of imaging should we get?
+  - Do we need to ask for anything special from pathology?
+- How was it managed classically?
+- How is it managed in the modern era?
+  - What is the role of surgery?
+  - What is the role of RT?
+  - What is the role of systemic (chemo/immuno/small molecule) therapy?
 
 ---
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: http://placekitten.com/200/300
----
 
-
-# Epidemiology
+# Epidemiology<sup>1</sup>
 
 <v-clicks>
 
-- errbody got it
+- thyroid cancers in general: 
+  - 2.5% of all cancers in the US
+  - 2009 incidence: 37,200
+  - 2009 death rate: 1,630
+
+- ATC:
+  - 1-2% of all thyroid cancers in the US
+  - 0.12 per 100,000 person-years (SEER)
+  - total incidence rising over time (SEER)
+    - likely not just better screening or detection
 
 </v-clicks>
 
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Footnote</a></Footnote>
+  <Footnote :number=1><a href="https://doi.org/10.1016%2Fj.clon.2010.03.013" rel="noreferrer" target="_blank">Smallridge and Copland, “Anaplastic thyroid carcinoma: pathogenesis and emerging therapies,” Clin Oncol (R Coll Radiol), Aug. 2010, doi: 10.1016/j.clon.2010.03.013.</a></Footnote>
 </Footnotes>
 
 ---
 
-# Overview
+# Epidemiology
 
+<v-clicks>
+
+- some geographies have higher percent prevalence, up to 10%
+- differences in percent prevalence appear to be largely driven by general healthcare disparities
+- percent prevalence has fallen rapidly since the 1960s (25-35%)
+    - iodine
+    - fixing earlier-stage thyroid cancers
+
+</v-clicks>
+
+
+---
+
+# Epidemiology
+
+<v-clicks>
+
+  - median OS: 3-6mo, median 1y survival: 20% (historically)
+  - accounts for up to 50% of deaths due to thyroid cancer
+    - general thyroid cancer 2009 incidence: 37,200
+    - general thyroid cancer 2009 death rate: 1,630
+    - ATC incidence: 2%
+    - ATC yearly death rate: near 100%
+    - 37000 * 0.02 = 740
+
+</v-clicks>
+
+
+
+---
+
+# Epidemiology
+
+<v-clicks>
+
+- male:female 1.5:2
+- typically >60yo
+- 30% have long-standing goiter, then rapid progression
+- IVa - localized - 10%
+- IVb - locally advanced - 35%
+- IVc - metastatic - 55% (lung, bone, liver, brain)
+- Differentiated thyroid cancer (DTC) component or hx of DTC in 58-90% of cases
+
+</v-clicks>
+
+
+
+---
+
+# Overview (WHO Criteria changed in 2022)
 
 <div><table class="tg">
 <thead>
@@ -123,12 +258,12 @@ figureUrl: http://placekitten.com/200/300
     <td class="tg-0lax" colspan="2">
       <li> CK+ in 100% </li>
       <li> TTF-1, PAX8, TG + in 100% (markers of thyroid follicular cell differentiation)</li>
-      <li> p53 abnormality is uncommon (~10%)</li>
+      <li> Ki67 low</li>
     </td>
     <td class="tg-0lax">
       <li> CK+ in 75%</li>
-      <li> TTF-1+ in 30%, PAX8+ in 54-70%, TG -ve</li>
-      <li> p53 abnormality is common (50%)</li>
+      <li> TTF-1+ in 0-30%, PAX8+ in 55-80%, TG in 0-5%</li>
+      <li> Ki67 median 50%</li>
     </td>
   </tr>
   <tr>
@@ -136,14 +271,17 @@ figureUrl: http://placekitten.com/200/300
     <td class="tg-0lax">
       <li> RAS 6-30%</li>
       <li> BRAF 53-81%</li>
+      <li> TP53 4%</li>
     </td>
     <td class="tg-0lax">
       <li> RAS 44-48%</li>
       <li> BRAF 6-9%</li>
+      <li> TP53 16%</li>
     </td>
     <td class="tg-0lax">
       <li> RAS 27%</li>
-      <li> BRAF 38%</li>
+      <li> BRAF 38% (BRAF V600E IHC is 95% sens, 100% spec for mutations)</li>
+      <li> TP53 62%</li>
     </td>
   </tr>
   <tr>
@@ -169,7 +307,114 @@ figureUrl: http://placekitten.com/200/300
 
 ---
 
+# Staging (AJCC 8th Edition)
+
+All ATC is considered stage IV.
+
+<table class="tg">
+
+<tbody>
+  <tr>
+    <td class="tg-row-head"> </td>
+    <td class="tg-0lax">T</td>
+    <td class="tg-0lax">N</td>
+    <td class="tg-0lax">M</td>
+  </tr>
+  <tr>
+    <td class="tg-row-head">IVA</td>
+    <td class="tg-0lax">T1-T3a</td>
+    <td class="tg-0lax">N0/NX</td>
+    <td class="tg-0lax">M0</td>
+  </tr>
+  <tr>
+    <td class="tg-row-head" rowspan="3">IVB</td>
+    <td class="tg-0lax">T1-T3a</td>
+    <td class="tg-0lax">N1</td>
+    <td class="tg-0lax">M0</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">T3b</td>
+    <td class="tg-0lax">Any N</td>
+    <td class="tg-0lax">M0</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">T4</td>
+    <td class="tg-0lax">Any N</td>
+    <td class="tg-0lax">M0</td>
+  </tr>
+  <tr>
+    <td class="tg-row-head">IVC</td>
+    <td class="tg-0lax">Any T</td>
+    <td class="tg-0lax">Any N</td>
+    <td class="tg-0lax">M1</td>
+  </tr>
+
+</tbody>
+</table>
+
+Advanced T stages are defined by extrathyroidal invasion.
+
+<table class="tg">
+<tbody>
+
+<tr>
+ <td class="tg-0lax"> T1a = &le;1cm </td>
+ <td class="tg-0lax"> T3b = invading strap muscles only </td>
+</tr>
+
+<tr>
+  <td class="tg-0lax"> T1b = &gt;1cm - &le;2cm </td>
+  <td class="tg"> T4a = invading beyond strap muscle </td>
+</tr>
+
+<tr>
+  <td class="tg"> T2 = &gt;2cm - &le;4cm </td>
+  <td class="tg"> T4b = invading into prevertebral fascia, encasing carotid or mediastinal vessels </td>
+</tr>
+
+<tr>
+  <td class="tg"> T3a = &gt;4cm </td>
+  <td class="tg"> </td>
+</tr>
+
+</tbody>
+</table>
+
+---
+
 # Management
+
+<img src="/images/atc-mgmt.jpg" class="h-100 rounded"/>
+
+---
+
+# Management continued - targets
+
+- 70% PD-L1 &ge;70% 
+- 73% TPS &ge;5%
+- 10-15% dMMR
+
+- 20-45% BRAF (dabrafenib-trametinib<sup>1</sup>, vemurafenib, cobimetinib)
+
+- 2-3% ALK (crizotinib, brigatinib, ceritinib)
+- 2-3% NTRK (larotrectinib, entrectinib)
+- 2-3% RET (selpercatinib, praseltinib)
+
+- mKI - lenvatinib
+
+<Footnotes separator>
+  <Footnote :number=1>ROAR II basket trial, let to FDA approval 2018-05-04 for ATC, 2022-06-22 for all BRAF+ solid tumors</Footnote>
+</Footnotes>
+
+---
+
+# Management continued - chemo +/- RT
+
+- typically taxane+platinum or doxorubicin+taxane/platinum
+- most prefer regimens with weekly dosing given rapid doubling time
+  - e.g. carbo AUC2 + paclitaxel 50-100mg/m2
+
+
 
 ---
 layout: index
