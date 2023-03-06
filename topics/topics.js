@@ -1,8 +1,8 @@
 import BALLinOlderAdults from "./b-all-older-adults/assets/logo.svg?url";
 import Pheochromocytoma from "./pheochromocytoma/assets/logo.svg?url";
 import InductionHNSCC from "./template/assets/logo.svg?url";
-import AnaplasticThyroid from "./template/assets/waxwing.svg?url";
-import MDSLowerRisk from "./template/assets/logo.svg?url";
+import AnaplasticThyroid from "./anaplastic-thyroid/assets/logo.svg?url";
+import MDSLowerRisk from "./mds-lower-risk/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
