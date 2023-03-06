@@ -4,19 +4,19 @@ layout: cover
 class: text-white
 coverAuthor: beau hilton 
 coverAuthorUrl: https://www.beauhilton.com
-coverDate: "2023-xx-xx"
+coverDate: "2023-03-31"
 themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
 title: template!
 info: |
-  # Template
-  Case Conference 2023-xx-xx, [Beau Hilton](https://www.beauhilton.com)
+  # Lower-Risk MDS
+  Case Conference 2023-03-31, [Beau Hilton](https://www.beauhilton.com)
 
 ---
 
-# Topic of great interest and deep import
+# Lower-Risk MDS
 
 ---
 

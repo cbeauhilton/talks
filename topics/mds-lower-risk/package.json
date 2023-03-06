@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /mds-lower-risk/ --out ../../dist/mds-lower-risk",
+    "export": "slidev export --output ../../dist/mds-lower-risk/mds-lower-risk.pdf"
+  }
+}

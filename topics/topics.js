@@ -1,7 +1,8 @@
 import BALLinOlderAdults from "./b-all-older-adults/assets/logo.svg?url";
 import Pheochromocytoma from "./pheochromocytoma/assets/logo.svg?url";
 import InductionHNSCC from "./template/assets/logo.svg?url";
-import AnaplasticThyroid from "./template/assets/logo.svg?url";
+import AnaplasticThyroid from "./template/assets/waxwing.svg?url";
+import MDSLowerRisk from "./template/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
@@ -26,8 +27,13 @@ export default [
     route: '/anaplastic-thyroid/',
   },
   {
+    title: '2023-03-31 - Lower-Risk MDS',
+    logo: MDSLowerRisk,
+    route: '/mds-lower-risk/',
+  },
+  {
     title: '00 template',
     logo: Octopus,
     route: '/template/',
   },
-].sort((a,b) => (a.title < b.title) ? -1 : ((a.title > b.title) ? 1 : 0))
+].sort((a,b) => (a.title > b.title) ? -1 : ((a.title < b.title) ? 1 : 0))
