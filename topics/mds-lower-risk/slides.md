@@ -9,7 +9,7 @@ themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
-title: template!
+title: Lower-Risk MDS
 info: |
   # Lower-Risk MDS
   Case Conference 2023-03-31, [Beau Hilton](https://www.beauhilton.com)
@@ -20,62 +20,56 @@ info: |
 
 ---
 
-# Set up js
+# Case presentation
 
-Don't forget to add the entry to `topics.js`
+81M w CKD (b/l Cr 1.8), HFpEF (admitted 2x last year), AF (on apixaban), p/w hgb 10.1, MCV 99.
 
-```js {1,5-9}
-import <<Something>> from "./<<something>>/assets/logo.svg?url";
-import Octopus from "./template/assets/logo.svg?url";
+Feels fine overall, some DoE that is longstanding, doing well since last admission and diuresis.
 
-export default [
-  {
-    title: '<<Something>>',
-    logo: <<Something>>,
-    route: '/<<something>>/',
-  },
-  {
-    title: 'template',
-    logo: Octopus,
-    route: '/template/',
-  },
-].sort((a,b) => (a.title < b.title) ? -1 : ((a.title > b.title) ? 1 : 0))
-```
+No frequent infections. 
 
----
+Doesn't have dentures, no OTC supps.
 
-# Set up package.json
-
-`package.json`
-
-`<<something>>` goes in *4* places below.
-
-```json {6-7}
-{
-  "version": "0.0.0",
-  "private": false,
-  "scripts": {
-    "dev": "slidev",
-    "build": "slidev build --base /<<something>>/ --out ../../dist/<<something>>",
-    "export": "slidev export --output ../../dist/<<something>>/<<something>>.pdf"
-  }
-}
-
-```
 
 ---
 
 # Case presentation
 
-Once upon a time...
-
----
-
-# Case presentation
+## Labs
 
 <v-clicks>
 
-Exam notable for ...
+- hgb 10.1, MCV 99
+- plt 132
+- WBC 5.3, normal diff
+
+- folate, B12 replete
+
+- TSAT 19%
+
+</v-clicks>
+
+---
+
+# Case presentation
+
+Given 1g IV iron, seen back in 10wks, BMBx scheduled prophylactically
+
+hgb 9.6, MCV 97
+
+other counts unchanged
+
+
+---
+
+# Case presentation
+
+## BMBx
+
+<v-clicks>
+
+- something
+- something else
 
 </v-clicks>
 
@@ -83,16 +77,13 @@ Exam notable for ...
 
 # Questions
 
-How.<sup>1</sup>
+- How do we risk-stratify MDS?
+- What are the relative incidences of the risk strata?
+- When do we intervene in lower-risk disease?
+- What tools do we have?
+- How do we sequence therapies?
+- Can we impact prognosis?
 
-<Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Footnote</a></Footnote>
-</Footnotes>
-
----
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: http://placekitten.com/200/300
 ---
 
 
@@ -100,31 +91,35 @@ figureUrl: http://placekitten.com/200/300
 
 <v-clicks>
 
-- errbody got it
+- yearly incidence: 4/100,000<sup>1</sup>
+- incidence increases with age:<sup>2</sup>
+  - <40yo: 0.1/100,000
+  - \>65yo: 25/100,000
+  - 70-79yo: 30/100,000
+  - \>80yo: 60/100,000
+  - underreported: yearly incidence >65yo may be as high as 75/100,000<sup>3</sup>
+- median age of dx: 70-75
+- male predominance
+  - 5.4/100,000 vs 2.9/100,000 in women
+  - del(5q) more common in women (7:3)
+- 75% are LR-MDS
 
 </v-clicks>
 
 
+
 <Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Footnote</a></Footnote>
+  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Sekeres</a></Footnote>
+  <Footnote :number=2><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Toprak</a></Footnote>
+  <Footnote :number=3><a href="https://beauhilton.com" rel="noreferrer" target="_blank">de Witte 2020</a></Footnote>
 </Footnotes>
 
 ---
+layout: figure
+figureUrl: ./images/ipssr-surv-aml.png
+---
+# Risk stratification
 
-# Prognosis
-
-<v-clicks>
-
-## heyo <sup>1</sup>
-
-- yup <sup>2</sup>
-
-</v-clicks>
-
-<Footnotes separator>
-  <Footnote :number=1><a href="https://doi.org/10.1210/jc.2018-01968" rel="noreferrer" target="_blank">Hescot 2019</a></Footnote>
-  <Footnote :number=2><a href="https://doi.org/10.3803%2FEnM.2020.35.1.157" rel="noreferrer" target="_blank">Al Subhi 2022</a></Footnote>
-</Footnotes>
 
 ---
 
