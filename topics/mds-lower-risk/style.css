@@ -1,7 +1,5 @@
 
-.slidev-layout a{
-  border-style: inherit
-}
+
 
 a {
   @apply text-sky-700;
@@ -11,9 +9,75 @@ h1 {
   @apply text-green-600;
 }
 
+mark {
+  @apply text-green-600;
+  background:none;
+}
+
+.slidev-layout.cover h1 {
+  @apply text-green-500;
+}
+
 .slidev-layout h2 {
   font-size: 1.6em; 
   @apply text-pink-700;
 }
 
+.slidev-layout a{
+  border-style: inherit;
+}
 
+.slidev-layout.cover a {
+  @apply text-white;
+  @apply pl-5;
+  border-bottom-width: 0;
+}
+
+.slidev-layout cover{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)) !important;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0px auto;
+  text-align: left;
+  vertical-align: bottom;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: sans-serif;
+  overflow: hidden;
+  word-break: normal;
+}
+
+.tg td {
+  font-size: 2em;
+  padding: 5px 5px;
+  font-weight: light;
+}
+
+.tg th {
+  font-size: 19px;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.tg .tg-row-head {
+  text-align: center;
+  vertical-align: center;
+}
+
+.tg .tg-top {
+  text-align: left;
+  vertical-align: top;
+}
+
+li {
+  list-style-type: circle;
+}
+
+li li {
+  list-style-type: square;
+}

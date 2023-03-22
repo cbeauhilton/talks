@@ -5,6 +5,7 @@ class: text-white
 coverAuthor: beau hilton 
 coverAuthorUrl: https://www.beauhilton.com
 coverDate: "2023-03-31"
+coverBackgroundUrl: ./images/clocks.jpg
 themeConfig:
   paginationX: r
   paginationY: t
@@ -22,7 +23,11 @@ info: |
 
 # Case presentation
 
+<br>
+
 81M w CKD (b/l Cr 1.8), HFpEF (admitted 2x last year), AF (on apixaban), p/w hgb 10.1, MCV 99.
+
+<v-clicks>
 
 Feels fine overall, some DoE that is longstanding, doing well since last admission and diuresis.
 
@@ -30,6 +35,7 @@ No frequent infections.
 
 Doesn't have dentures, no OTC supps.
 
+</v-clicks>
 
 ---
 
@@ -53,12 +59,15 @@ Doesn't have dentures, no OTC supps.
 
 # Case presentation
 
+<v-clicks>
+
 Given 1g IV iron, seen back in 10wks, BMBx scheduled prophylactically
 
 hgb 9.6, MCV 97
 
 other counts unchanged
 
+</v-clicks>
 
 ---
 
@@ -77,6 +86,8 @@ other counts unchanged
 
 # Questions
 
+- How common is MDS?
+- What do people present with?
 - How do we risk-stratify MDS?
 - What are the relative incidences of the risk strata?
 - When do we intervene in lower-risk disease?
@@ -115,15 +126,289 @@ other counts unchanged
 </Footnotes>
 
 ---
+
+# S/sx prevalence (%)<sup>1</sup>
+
+<table class="tg">
+<tbody>
+
+<tr>
+ <td> Fatigue </td>
+ <td> 55 </td>
+</tr>
+
+<tr>
+ <td> Hgb &lt;10 g/dL </td>
+ <td> 52 </td>
+</tr>
+
+<tr>
+ <td> Plt &lt;100 x 10<sup>9</sup>/L </td>
+ <td> 40 </td>
+</tr>
+
+<tr>
+ <td> ANC &lt;800 x 10<sup>9</sup>/L </td>
+ <td> 18 </td>
+</tr>
+
+<tr>
+ <td> Fever/infection </td>
+ <td> 15 </td>
+</tr>
+
+<tr>
+ <td> Bleeding </td>
+ <td> 8 </td>
+</tr>
+
+
+</tbody>
+</table>
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Sekeres</a></Footnote>
+</Footnotes>
+
+---
+
+# Diagnosis
+
+- &ge;1 cytopenias
+  - hgb &lt;10, ANC &lt;1800, plt &lt;100k
+- &ge;10% dysplastic cells in &ge;1 lineage
+- &lt;20% blasts
+- presence of certain cytogenetic/molecular findings
+  - _absence_ of AML-defining (cyto)genetics (e.g. t(8;21), CBFB-MYH11)
+
+
+---
 layout: figure
 figureUrl: ./images/ipssr-surv-aml.png
 ---
+
 # Risk stratification
 
 
 ---
 
+# Risk stratification (IPSS)
+
+<table>
+<tbody> 
+  <tr> 
+    <td rowspan="2">Variable</td> 
+    <td colspan="5">Score</td> 
+  </tr> 
+  <tr> 
+    <td>0</td> 
+    <td>0.5</td> 
+    <td>1</td> 
+    <td>1.5</td> 
+    <td>2</td> 
+  </tr> 
+  <tr> 
+    <td>Bone marrow blasts (percent)</td> 
+    <td>&lt;5</td> 
+    <td>5-10</td> 
+    <td>-</td> 
+    <td>11-20</td> 
+    <td>21-30</td> 
+  </tr> 
+  <tr> 
+    <td>Karyotype</td> 
+    <td>Good</td> 
+    <td>Intermediate</td> 
+    <td>Poor</td> 
+    <td>-</td> 
+    <td>-</td> 
+  </tr> 
+  <tr> 
+    <td>Cytopenias</td> 
+    <td>0-1</td> 
+    <td>2-3</td> 
+    <td>-</td> 
+    <td>-</td> 
+    <td>-</td> 
+  </tr> 
+</tbody>
+</table>
+
+<br>
+
+- Karyotype stratification:
+  - Good: Normal, -Y, del(5q), del(20q)
+  - Intermediate: not good nor poor
+  - Poor: &ge;3 abnl, chromosome 7 abnl 
+
+
+---
+
+# Risk stratification (IPSS)
+
+<table>
+<tbody>
+  <tr> 
+    <td>Risk group</td> 
+    <td>IPSS score</td> 
+  </tr> 
+  <tr> 
+    <td>Low</td> 
+    <td>0</td> 
+  </tr> 
+  <tr> 
+    <td>Intermediate-1</td> 
+    <td>0.5 to 1</td> 
+  </tr> 
+  <tr> 
+    <td>Intermediate-2</td> 
+    <td>1.5 to 2</td> 
+  </tr> 
+  <tr> 
+    <td>High</td> 
+    <td>2.5 to 3.5</td> 
+  </tr> 
+</tbody>
+</table>
+
+---
+
+# Risk stratification (IPSS-R)
+
+<table>
+<colgroup span="8" width="12%"></colgroup> 
+<tbody> 
+  <tr> 
+    <td rowspan="2"></td> 
+    <td colspan="7"></td> 
+  </tr> 
+  <tr> 
+    <td>0</td> 
+    <td>0.5</td> 
+    <td>1.0</td> 
+    <td>1.5</td> 
+    <td>2.0</td> 
+    <td>3.0</td> 
+    <td>4.0</td> 
+  </tr> 
+  <tr> 
+    <td>blast %</td> 
+    <td>≤2 </td> 
+    <td>&nbsp;</td> 
+    <td>&gt;2 - &lt;5 </td> 
+    <td>&nbsp;</td> 
+    <td>5 - 10 </td> 
+    <td>&gt;10 </td> 
+    <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td>hgb</td> 
+    <td>≥10</td> 
+    <td>&nbsp;</td> 
+    <td>8 - &lt;10</td> 
+    <td>&lt;8</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td>plt</td> 
+    <td>≥100</td> 
+    <td>50 - 100</td> 
+    <td>&lt;50</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+    <td>ANC</td> 
+    <td>≥0.8</td> 
+    <td>&lt;0.8</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+  <td>cytogenetics</td> 
+    <td>very good
+    <p class="text-xs"> -Y, del(11q)</p>
+    </td> 
+    <td>&nbsp;</td> 
+    <td>good
+    <p class="text-xs"> normal, del(12p), del(20q), del(5q), <mark>double w del(5q)</mark></p>
+    </td> 
+    <td>&nbsp;</td> 
+    <td>intermediate
+    <p class="text-xs"> single NOS, del(7q), +8, +19, i(17q), <mark>double w/o del(5q) or -7/del(7q)</mark></p>
+    </td> 
+    <td>poor
+    <p class="text-xs"> -7, <mark>double w -7/del(7q)</mark>, inv(3)/t(3q)/del(3q), 3 abnl</p>
+    </td> 
+    <td>very poor
+    <p class="text-xs">&gt;3 abnl</p>
+    </td> 
+  </tr> 
+</tbody>
+</table>
+
+---
+
+# Risk stratification (IPSS-R)
+
+<table>
+<tbody>
+<tr> 
+<td colspan="2">Risk group</td> 
+<td colspan="2">IPSS-R score</td> 
+</tr> 
+<tr> 
+<td colspan="2">very low</td> 
+<td colspan="2">≤1.5</td> 
+</tr> 
+<tr> 
+<td colspan="2">low</td> 
+<td colspan="2">&gt;1.5 to 3.0</td> 
+</tr> 
+<tr> 
+<td colspan="2">intermediate</td> 
+<td colspan="2">&gt;3 to 4.5</td> 
+</tr> 
+<tr> 
+<td colspan="2">high</td> 
+<td colspan="2">&gt;4.5 to 6</td> 
+</tr> 
+<tr> 
+<td colspan="2">very high</td> 
+<td colspan="2">&gt;6</td> 
+</tr> 
+</tbody>
+</table>
+
+---
+layout: figure
+figureUrl: ./images/ipss-x.jpeg
+figureFootnoteNumber: 1
+figureCaption: Newer risk stratification strategies attempt to address shortcomings with prior models (e.g. new mutations of significance, significant heterogeneity within risk groups). Because they are complex, they are not in widespread use outside of research settings.
+---
+
+# Risk stratification (IPSS-many)
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://doi.org/10.1182/blood-2022-159939">Baer et al</a></Footnote>
+</Footnotes>
+
+
+
+
+
+---
+
 # Management
+
+
 
 ---
 layout: index
