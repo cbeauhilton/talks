@@ -81,3 +81,7 @@ li {
 li li {
   list-style-type: square;
 }
+
+.footnote li {
+  list-style-type: none
+}

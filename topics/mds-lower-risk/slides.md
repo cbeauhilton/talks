@@ -119,7 +119,7 @@ other counts unchanged
 
 
 
-<Footnotes separator>
+<Footnotes separator class="footnote">
   <Footnote :number=1><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Sekeres</a></Footnote>
   <Footnote :number=2><a href="https://beauhilton.com" rel="noreferrer" target="_blank">Toprak</a></Footnote>
   <Footnote :number=3><a href="https://beauhilton.com" rel="noreferrer" target="_blank">de Witte 2020</a></Footnote>
@@ -396,7 +396,7 @@ figureCaption: Newer risk stratification strategies attempt to address shortcomi
 
 # Risk stratification (IPSS-many)
 
-<Footnotes separator>
+<Footnotes separator class="footnote">
   <Footnote :number=1><a href="https://doi.org/10.1182/blood-2022-159939">Baer et al</a></Footnote>
 </Footnotes>
 
@@ -408,6 +408,130 @@ figureCaption: Newer risk stratification strategies attempt to address shortcomi
 
 # Management
 
+## Goals of management
+  
+<v-clicks>
+
+- No interventions have been shown conclusively to improve OS in LR-MDS.<sup>1</sup>
+- Palliative
+  - reduce sx
+  - reduce tfx dependence
+  - minimize morbidity
+  - balance tox of tx vs tox of dz
+
+<Footnotes separator class="footnote">
+  <Footnote :number=1>there is now a suggestion that early EPO may improve OS (Garelius 2022, abstract at the EHA Annual Congress)</Footnote>
+</Footnotes>
+
+</v-clicks>
+
+
+---
+
+# Management 
+
+## Anemia
+
+- EPO
+  - relatively high dose, e.g. 60,000u EPO q7d, 500 μg darbepoetin alfa q21d
+  - meta-analysis: ~40% response rate overall (hgb up 1-1.5g, reduction in tfx)
+  - 2017 RCT: 15% RR at 24wk (0% in placebo)
+    - Open-label 48wk f/u: 35% RR
+  - response rate is higher if lower baseline EPO (e.g.<200 IU/L)
+    - if high tfx dependence (&ge;1 tfx/14d) and EPO >200, RR <10%
+  - mean duration of response: 8-23mo
+  - fever in 10%
+
+
+---
+
+# Management 
+
+## Anemia
+
+- luspatercept
+  - TGF-b superfamily, promotes late-stage erythropoeisis
+  - MDS-RS (usu SF3B1-mutant)
+  - tfx independence in ~40% (~10% in placebo)
+  - median duration of response ~30wks
+  - diarrhea, nausea, back pain, dizziness in 20%
+- lenalidomide
+  - del(5q) (sometimes non-del(5q) if used in combo w epoeitin alfa)
+  - 21/28d cycles
+  - 2011 RCT: tfx independence in 40-60%
+  - median duration of response >2y
+  - G3-4 neutropenia 70%, thrombocytopenia in ~33%
+
+
+---
+
+# Management 
+
+## Anemia - new stuff
+
+- imetelstat
+  - telomerase inhibitor
+  - IV, 2h infusion q4wks
+  - "IMerge" trial (phase 2 complete, phase 3 finished recruiting)
+  - R/R tfx burden (&ge;4 pRBC/8wks)
+  - primary endpoint: transfusion independence &ge;8wk
+  - 37% reached primary endpoint
+  - 42% >8wks, 32% >24wks, 29% >52wks
+  - possibly disease-modifying (clonal burden decreased in some)
+
+---
+
+# Management 
+
+## Anemia - new stuff
+- roxadustat
+  - HIF inhibitor (approved in China for CKD, not approved in US d/t c/f thrombosis, CV events)
+  - oral, 3x/wk
+  - phase 3, LR-MDS, <5% blasts, low tfx burden
+  - ~50% reduction in tfx
+  - EPO level doesn't seem to matter, but sample size is small
+- H3B-8800
+  - spliceosome modulator (e.g. SF3B1, SRSF2, U2AF1)
+  - oral small molecule
+  - 42 pts w HR or LR-MDS, 88% w spliceosome mutations
+  - 14% had reduced pRBC or plt tfx dependence
+
+
+---
+
+# Management 
+
+## Thrombocytopenia
+
+- romiplostim
+  - plt <20k: 1250 vs 1800 plt tfx per 100 pt-years
+  - plt >20k: 80 vs 225 bleeding events per 100 pt-years
+- eltrombopag
+  - baseline plt <30k
+  - improved plt count in 50% (3% in placebo)
+- possibly higher risk of AML transformation, particularly in MDS-EB, but longer f/u studies failed to show an association (e.g. Kantarjian 2018)
+
+
+---
+
+# Management 
+
+## Multipenia/Neutropenia
+
+- HMA
+  - may be able to use 3d cycles, rather than 5/7
+  - 29% CR or PR (12% w best supportive care)
+  - oral HMA are approved for IR-MDS and HR-MDS, phase 1/2 studies for LR-MDS are underway
+- ATG
+
+---
+
+# Management 
+
+## MDS-hypoplastic
+
+- LR-MDS w <25% cellularity appears to somewhat overlap w aplastic anemia
+- so -> ATG, cyclosporin, etc.
 
 
 ---
