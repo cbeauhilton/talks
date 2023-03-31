@@ -3,6 +3,7 @@ import Pheochromocytoma from "./pheochromocytoma/assets/logo.svg?url";
 import InductionHNSCC from "./induction-hnscc/assets/logo.svg?url";
 import AnaplasticThyroid from "./anaplastic-thyroid/assets/logo.svg?url";
 import MDSLowerRisk from "./mds-lower-risk/assets/logo.svg?url";
+import ScholarshipCommittee2023 from "./scholarship-committee-2023/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
@@ -30,6 +31,11 @@ export default [
     title: '2023-03-31 - Lower-Risk MDS',
     logo: MDSLowerRisk,
     route: '/mds-lower-risk/',
+  },
+  {
+    title: '2023-04-21 - Scholarship Committee Meeting',
+    logo: ScholarshipCommittee2023,
+    route: '/scholarship-committee-2023/',
   },
   {
     title: '00 template',
