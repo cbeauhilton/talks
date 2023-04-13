@@ -33,7 +33,7 @@ export default [
     route: '/mds-lower-risk/',
   },
   {
-    title: '2023-04-21 - Scholarship Committee Meeting',
+    title: '2023-04-13 - HemOnc.org Q3',
     logo: ScholarshipCommittee2023,
     route: '/scholarship-committee-2023/',
   },
