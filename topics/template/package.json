@@ -1,6 +1,4 @@
 {
-  "version": "0.0.0",
-  "private": false,
   "scripts": {
     "dev": "slidev",
     "build": "slidev build --base /template/ --out ../../dist/template",

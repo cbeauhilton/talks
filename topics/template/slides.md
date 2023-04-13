@@ -29,7 +29,7 @@ info: |
 Footnotable.<sup>1</sup>
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com">Footnote</a></Footnote>
+  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferror" target="_blank">Footnote</a></Footnote>
 </Footnotes>
 
 ---
@@ -64,10 +64,8 @@ export default [
 
 `<<something>>` goes in *4* places below.
 
-```json {6-7}
+```json {4-5}
 {
-  "version": "0.0.0",
-  "private": false,
   "scripts": {
     "dev": "slidev",
     "build": "slidev build --base /<<something>>/ --out ../../dist/<<something>>",
