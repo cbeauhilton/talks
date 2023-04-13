@@ -9,14 +9,14 @@ themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
-title: Scholarship Committee Meeting 2023
+title: HemOnc.org Editorial Meeting Q2
 info: |
   # Scholarship Committee Meeting
   [Beau Hilton](https://www.beauhilton.com)
 
 ---
 
-# HemOnc.org Q3
+# HemOnc.org Q2
 
 ---
 layout: center
