@@ -2,28 +2,91 @@
 theme: academic
 layout: cover
 class: text-white
-coverAuthor: beau hilton 
+coverAuthor: beau hilton
 coverAuthorUrl: https://www.beauhilton.com
-coverDate: "2023-04-13"
+coverDate: "2023-04-21"
 themeConfig:
   paginationX: r
   paginationY: t
   paginationPagesDisabled: [1]
-title: HemOnc.org Editorial Meeting Q2
+title: Scholarship Committee Meeting 2023
 info: |
   # Scholarship Committee Meeting
   [Beau Hilton](https://www.beauhilton.com)
 
 ---
 
-# HemOnc.org Q2
+# Scholarship Committee Meeting
+
+---
+layout: figure
+figureFootnoteNumber: 1
+figureUrl: ./images/idk.jpg
+---
+
+<!-- "Who am I?" - Derek Zoolander -->
+
+---
+layout: figure
+figureUrl: ./images/tcv.png
+figureCaption: undergrad = anthropology + musicology + activism == ethnomusicology
+---
+
+# Background
+
+---
+layout: figure
+figureUrl: ./images/udu-sldv.gif
+figureCaption: ethnomusicology + lasers + MATLAB == ?
+---
+
+# Background
+
+---
+layout: figure
+figureUrl: ./images/ccccai.png
+figureCaption: automated quantitative differential diagnosis, explainable ML
+---
+
+# Background
+
+---
+layout: figure
+figureUrl: ./images/shap.png
+figureCaption: hello anthro, my old friend
+---
+
+# Background
 
 ---
 layout: center
 class: "text-center"
 ---
 
-# [R-CEOP](https://hemonc.org/wiki/Diffuse_large_B-cell_lymphoma#R-CEOP_.28Etoposide.29)
+# Career goals
+
+<br>
+
+## clinical oncologist
+
+head/neck/esophagus
+
+## data scientist
+
+computational anthropology, metascience
+
+<br>
+
+# (🦒 + 🤖)
+
+---
+layout: center
+class: "text-center"
+---
+
+# Current project
+
+# [(click here)](https://ash-abstracts.vercel.app/abstracts_small/abstracts)
 
 ---
 layout: figure
@@ -41,23 +104,15 @@ figureUrl: ./images/de-leon-2021.jpg
 
 ---
 layout: figure
-figureCaption: manual extraction is slow and ruins your back
-figureUrl: ./images/two_boys_writing.jpg
----
-
-# Where in the world is hematology?
-
----
-layout: figure
 figureCaption: Léon Tshilolo, MD, PhD. ASH 2018, speaking on hydroxyurea in Sub-Saharan Africa.
-figureUrl: ./images/tshilolo.jpg
+figureUrl: ./images/tshilolo-ai.png
 ---
 
 # Right [patient, drug, time, dose, route, _place_]
 
 ---
 layout: figure
-figureCaption: 
+figureCaption:
 figureUrl: ./images/this_is_what_happens_on_this_page.jpg
 ---
 
@@ -67,23 +122,13 @@ figureUrl: ./images/this_is_what_happens_on_this_page.jpg
 
 ---
 layout: figure
-figureCaption: 
-figureUrl: ./images/greek_palace_guard.jpg
----
-
-# Gatekeeper/Guide
-
-<!-- Greek Palace Guard, 1911 -->
-
----
-layout: figure
-figureCaption: 
+figureCaption:
 figureUrl: ./images/this_is_the_point.jpg
 ---
 
 ---
 layout: figure
-figureCaption: What if we could automate the extraction and structuring of all ~100k abstracts?
+figureCaption: automate the extraction and structuring of all ~100k abstracts
 figureUrl: ./images/let_the_machine_do_the_work.jpg
 ---
 
@@ -135,8 +180,94 @@ figureUrl: ./images/hans_rosling.gif
 - disparities
   - e.g. overlay maps of the disease itself (incidence, morbidity, etc.) and research about that disease
 - funding/resource allocation
+    - link with National Clinical Trial number (NCT)
 
 </v-clicks>
+
+---
+
+# Next steps
+
+- finalize data structure
+- rewrite web scraper
+- redundant data storage
+- analyses (interactive)
+- automatic updates
+- abstract submission to ASCO (Feb 2024), ASH (Aug 2024)
+- manuscript (mid 2024)
+
+---
+
+# Mentorship committee
+
+## Clinical Mentors
+
+- Dr Jennifer Choe (HN)
+- Dr Mike Gibson (HN/UGI)
+- alternate clinics
+
+<br>
+
+## Research Mentors
+
+- Dr Travis Osterman (primary, local, EMR, structured pt journeys)
+    - 1:1 meetings at least monthly
+- Dr Jeremy Warner (second primary, abroad, HemOnc.org, ontology)
+    - 1:1 meetings at least q2mo
+- Dr Josh Peterson (Directer, Center for Precision Medicine, sequencing across large populations, clinical decision support)
+    - hope to meet soon
+
+---
+
+# Other current projects
+
+- multiomics for sarcoma (PI: Osterman)
+- extreme biometry database (validated extremes in lab and radiographic parameters, to be used for data cleaning and exploration)
+
+---
+
+# Future directions in fellowship
+
+## Goal 1: Develop clinical expertise in HN/UGI
+
+<br>
+
+## Goal 2: Develop funding sources
+
+<br>
+
+- early/training awards - e.g. [T15](https://www.nlm.nih.gov/ep/GrantTrainInstitute.html)
+- later awards - e.g. [ITCR](https://itcr.cancer.gov/about-itcr) U01, U24, etc.
+- Links to relevant, current available FOA:
+   [Enhancement & Dissemination](https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-23-016.html),
+   [Sustainment](https://grants.nih.gov/grants/guide/rfa-files/RFA-CA-23-017.html),
+   [Biomedical Data Repository](https://grants.nih.gov/grants/guide/pa-files/PAR-20-089.html),
+   [Biomedical Knowledgebase](https://grants.nih.gov/grants/guide/pa-files/PAR-20-097.html)
+
+<br>
+
+## Goal 3: ?Pursue clinical informatics fellowship
+
+
+<br>
+
+- -> MS-ACI [21mo program]
+- r/b discussion ongoing (e.g. qualify for T15, opportunity cost)
+
+---
+layout: figure
+figureUrl: ./images/rabbits_dining_cheers.jpg
+---
+
+# Discuss!
+
+
+---
+layout: center
+class: "text-center"
+---
+
+# moar slides follow, use prn
 
 ---
 layout: figure-side
@@ -151,7 +282,7 @@ figureUrl: ./images/standards.png
 <v-clicks>
 
 - <https://schema.datacite.org>
-- [FAIR](https://doi.org/10.1038/sdata.2016.18) 
+- [FAIR](https://doi.org/10.1038/sdata.2016.18)
   - Findable
   - Accessible
   - Interoperable
@@ -167,7 +298,7 @@ figureUrl: ./images/ash_robots.png
 
 # Challenges
 
-## `robots.txt` 
+## `robots.txt`
 
 <v-clicks>
 
@@ -185,7 +316,7 @@ figureUrl: ./images/cracked_glasses.jpg
 # Challenges
 
 
-## 
+##
 
 <!-- COI, NLP -> signals from abstract body -->
 
@@ -212,14 +343,6 @@ figureUrl: ./images/willison-chatgpt.gif
 ---
 
 # Challenges (also a feature)
-
----
-layout: figure
-figureCaption: 
-figureUrl: ./images/rabbits_dining_cheers.jpg
----
-
-# [Show and tell (click here)](https://ash-abstracts.vercel.app/abstracts_small)
 
 <!-- # Background and career goals -->
 
