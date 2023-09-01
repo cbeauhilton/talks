@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /induction-hnscc-2023/ --out ../../dist/induction-hnscc-2023",
+    "export": "slidev export --output ../../dist/induction-hnscc-2023/induction-hnscc-2023.pdf"
+  }
+}
