@@ -209,29 +209,43 @@ Our patient:
 
 <v-clicks>
 
+- NPC
+  - gem+cis ICT f/b CCRT: +OS benefit if EBV+ (NEJM 2019, JCO 2022)
 - larynx preservation
   - CCRT not clearly better than ICT in pts who qualify for total laryngectomy but not partial - SALTORL trial is comparing ICT and CCRT head-to-head
 - treatment intensification
   - TPF+CCRT in the fittest patients?
 - converting borderline resectable to resectable
   - ~30% conversion rate
-- selecting HPV+ OPSCC pt for RT dose reduction
-  - significant improvement in morbidity
 - oligometastatic disease
   - shrink/eliminate distant sites, spot weld prn, then CCRT/surgery?
-- neurologic and airway compromise
+- neurologic and airway compromise (i.e. true urgencies, nonoperable)
+    - dental procedures wrt timing of RT, may need to start ICT to bridge until dental procedures are done plus ~2wks (h/t Ronak Mistry)
 
 </v-clicks>
 
+* https://www.nejm.org/doi/full/10.1056/NEJMoa1905287#:~:text=In%20conclusion%2C%20the%20addition%20of,risk%20locoregionally%20advanced%20nasopharyngeal%20cancer.
+* https://pubmed.ncbi.nlm.nih.gov/35709465/
+
+---
+
+# ICT for NPC
+
+
+<img src="/images/npc-ebv.png" class="h-80 rounded "/>
+
+---
+
+# Induction radiotherapy?
+
+"Quad-shot" RT: 14-15 Gy over 4 fractions
+- 2x/day (6h separation) x 2 days
+- palliative
+- if response, can continue monthly (usually cap around Gy in the low 40s)
+- studies looking at quad-shot+something are ongoing (e.g. http://clinicaltrials.gov/study/NCT04454489 - +pembro)
 ---
 
 
-# talking points that came up after the talk
-
-
-- gem-cis ICT with CCRT, study out of China, good results (h/t Cody Lebeck Lee - also v good question about generalizability given high EBV burden in Asian populations)
-- QUAD shot radiotherapy, highly targeted RT (h/t Dixon Dorand)
-- dental procedures wrt timing of RT, may need to start ICT to bridge until dental procedures are done plus ~2wks (h/t Ronak Mistry)
 
 
 ---
