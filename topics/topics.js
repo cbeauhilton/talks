@@ -6,6 +6,7 @@ import AnaplasticThyroid from "./anaplastic-thyroid/assets/logo.svg?url";
 import MDSLowerRisk from "./mds-lower-risk/assets/logo.svg?url";
 import HemOncOrg2023 from "./hemonc-org-2023/assets/logo.svg?url";
 import ScholarshipCommittee2023 from "./scholarship-committee-2023/assets/logo.svg?url";
+import PMBCLymphoma from "./primary-mediastinal-b-cell-2023/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
@@ -48,6 +49,11 @@ export default [
     title: '2023-09-01 - HNSCC Induction',
     logo: InductionHNSCC2023,
     route: '/induction-hnscc-2023/',
+  },
+  {
+    title: '2023-12-15 - Primary Mediastinal B-Cell Lymphoma',
+    logo: PMBCLymphoma,
+    route: '/primary-mediastinal-b-cell-2023/',
   },
   {
     title: '00 template',

@@ -2,7 +2,7 @@
 theme: academic
 layout: cover
 class: text-white
-coverAuthor: beau hilton 
+coverAuthor: beau hilton
 coverAuthorUrl: https://www.beauhilton.com
 coverDate: "2022-12-16"
 themeConfig:
@@ -11,7 +11,7 @@ themeConfig:
   paginationPagesDisabled: [1]
 title: Induction Chemotherapy for Head and Neck SCC
 info: |
-  # Template
+  # Induction Chemotherapy for Head and Neck SCC
   Case Conference 2022-12-16, [Beau Hilton](https://www.beauhilton.com)
 
 ---
@@ -154,7 +154,7 @@ Similar case on Radiopaedia:
 <v-clicks>
 
 - PF vs TPF
-- European study (TAX323) had RT afterward, American Study (TAX324) had CCRT afterward. 
+- European study (TAX323) had RT afterward, American Study (TAX324) had CCRT afterward.
 
 <br>
 <img src="/images/TAX324_TAX323_20221209151920.png" class="h-80 rounded "/>
@@ -162,7 +162,7 @@ Similar case on Radiopaedia:
 </v-clicks>
 
 
---- 
+---
 
 
 # ICT through the ages
@@ -180,7 +180,7 @@ Similar case on Radiopaedia:
 </v-clicks>
 
 
---- 
+---
 
 
 # ICT through the ages
@@ -197,7 +197,7 @@ Rise of the mods:
 
 Our patient:
 
-- docetaxel 75, cisplatin 75, q3wk x3 and reimage 
+- docetaxel 75, cisplatin 75, q3wk x3 and reimage
 
 </v-clicks>
 
@@ -215,7 +215,7 @@ Our patient:
   - TPF+CCRT in the fittest patients?
 - converting borderline resectable to resectable
   - ~30% conversion rate
-- selecting HPV+ OPSCC pt for RT dose reduction 
+- selecting HPV+ OPSCC pt for RT dose reduction
   - significant improvement in morbidity
 - oligometastatic disease
   - shrink/eliminate distant sites, spot weld prn, then CCRT/surgery?

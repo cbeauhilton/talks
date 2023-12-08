@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /primary-mediastinal-b-cell-2023/ --out ../../dist/primary-mediastinal-b-cell-2023",
+    "export": "slidev export --output ../../dist/primary-mediastinal-b-cell-2023/primary-mediastinal-b-cell-2023.pdf"
+  }
+}
