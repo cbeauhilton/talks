@@ -74,17 +74,17 @@ li{
 
 <v-clicks class="fixed top-0 left-50 right-0">
 
-- ![img](https://prod-images-static.radiopaedia.org/images/307911/5a68d27fe27d019fd6ba86f7847fe7_big_gallery.jpg)
-- ![img](https://prod-images-static.radiopaedia.org/images/307912/3f8366bb1b40f6b0c20b80299549fc_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307913/a676306c71fffbb07ae4065eb363f8_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307914/3d4c35c6c4a0d0f2c65c6cd89d8ca6_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307915/32ca2f266135f16c237af52af32bf7_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307916/a15c4faa7d71b55847c1e4b16cefe8_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307917/63568c692e403123a8679c2225a89c_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307918/b59d456c09c7a6d764297a6c3037d2_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307920/5d10c4623cfec36554f9e61f3bba4e_big_gallery.jpg),
-- ![img](https://prod-images-static.radiopaedia.org/images/307921/9c1e5c9df06fcb9030b22a834bb621_big_gallery.jpg)
-- ![img](https://prod-images-static.radiopaedia.org/images/307923/680847aa3ed734c9aa9bb2e5b7b58b_big_gallery.jpg)
+- ![img](/images/ct-06.jpg)
+- ![img](/images/ct-14.jpg)
+- ![img](/images/ct-23.jpg)
+- ![img](/images/ct-33.jpg)
+- ![img](/images/ct-41.jpg)
+- ![img](/images/ct-49.jpg)
+- ![img](/images/ct-57.jpg)
+- ![img](/images/ct-66.jpg)
+- ![img](/images/ct-74.jpg)
+- ![img](/images/ct-82.jpg)
+- ![img](/images/ct-93.jpg)
 
 </v-clicks>
 
