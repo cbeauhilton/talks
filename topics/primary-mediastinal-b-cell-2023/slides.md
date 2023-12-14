@@ -13,87 +13,124 @@ title: Primary Mediastinal B-Cell Lymphoma
 info: |
   # Primary Mediastinal B-Cell Lymphoma
   Case Conference 2023-12-15, [Beau Hilton](https://www.beauhilton.com)
-
 ---
 
 # Primary Mediastinal B-Cell Lymphoma
 
 ---
 
-# Copyable things
+# Presentation
+
+35M, athlete, no known medical problems.
 
 <v-clicks>
+
+Working in the crawl space under his house, developed progressive and eventually severe L arm pain and swelling.
+
+Went to local ED: LUE DVT, put on rivaroxaban. CT scan same day had ?supraclav nodule, o/p f/u recommended.
+
+Progressive dyspnea, facial plethora.
+
+Presented to VA ED. CT: ++mediastinal mass w locoregional LAD. Radiographic and symptomatic SVC syndrome.
+
+Core bx prelim read: mostly fibrotic tissue. Sx improved w supportie care, d/c home.
+
+Day after d/c, bx returned: large B-cell lymphoma.
+Primary team contacted him w prelim dx, he was feeling relatively well so deferred readmission to o/p appt.
 
 </v-clicks>
 
-Footnotable.<sup>1</sup>
-
-<Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferror" target="_blank">Footnote</a></Footnote>
-</Footnotes>
-
 ---
 
-# Set up js
-
-Don't forget to add the entry to `topics.js`
-
-```js {1,5-9}
-import <<Something>> from "./<<something>>/assets/logo.svg?url";
-import Octopus from "./template/assets/logo.svg?url";
-
-export default [
-  {
-    title: '<<Something>>',
-    logo: <<Something>>,
-    route: '/<<something>>/',
-  },
-  {
-    title: 'template',
-    logo: Octopus,
-    route: '/template/',
-  },
-].sort((a,b) => (a.title < b.title) ? -1 : ((a.title > b.title) ? 1 : 0))
-```
-
----
-
-# Set up package.json
-
-`package.json`
-
-`<<something>>` goes in *4* places below.
-
-```json {4-5}
-{
-  "scripts": {
-    "dev": "slidev",
-    "build": "slidev build --base /<<something>>/ --out ../../dist/<<something>>",
-    "export": "slidev export --output ../../dist/<<something>>/<<something>>.pdf"
-  }
-}
-
-```
-
----
-
-# Case presentation
-
-Once upon a time...
-
----
-
-# Case presentation
+# Outpatient visit
 
 <v-clicks>
 
-Exam notable for ...
+HR 130s, plethoric, dyspneic, but able to get around w/o assistance and speak in complete sentences.
+
+Discussed DLBCL vs PMBCL, possibility of cure in either case, recommended admission for expedited w/u and tx start.
+
+</v-clicks>
+
+---
+
+# CT
+
+<!-- If I was smart I would write a Vue component to make interactive imaging.
+     It would be really nice to take in a folder of images,
+     rather than a manually typed list of discrete links.
+     But this works:
+     bastardized list css and layered jpgs.
+-->
+
+<style>
+li{
+    position:absolute;
+    top:30;
+    left:100;
+    list-style-type: none;
+};
+</style>
+
+<v-clicks class="fixed top-0 left-50 right-0">
+
+- ![img](https://prod-images-static.radiopaedia.org/images/307911/5a68d27fe27d019fd6ba86f7847fe7_big_gallery.jpg)
+- ![img](https://prod-images-static.radiopaedia.org/images/307912/3f8366bb1b40f6b0c20b80299549fc_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307913/a676306c71fffbb07ae4065eb363f8_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307914/3d4c35c6c4a0d0f2c65c6cd89d8ca6_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307915/32ca2f266135f16c237af52af32bf7_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307916/a15c4faa7d71b55847c1e4b16cefe8_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307917/63568c692e403123a8679c2225a89c_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307918/b59d456c09c7a6d764297a6c3037d2_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307920/5d10c4623cfec36554f9e61f3bba4e_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307921/9c1e5c9df06fcb9030b22a834bb621_big_gallery.jpg)
+- ![img](https://prod-images-static.radiopaedia.org/images/307923/680847aa3ed734c9aa9bb2e5b7b58b_big_gallery.jpg)
+
+</v-clicks>
+
+<div class="-translate-x-11 translate-y-105"><a class="text-xs">https://radiopaedia.org/cases/8655</a></div>
+
+---
+
+# First admission
+
+<v-clicks>
+
+Contacted thoracic team for mediastinoscopy, accommodated same-day.
+
+Mostly fibrotic tissue, rare large B-cells.
+
+"Chopping through wood"
+
+Wrote for R-EPOCH to start next day.
+
+Nursing/pharmacy error: G-CSF released that night. \*\*\* might leave this out
+
+</v-clicks>
+
+---
+
+# Subsequent admissions
+
+<v-clicks>
+
+- DA-R-EPOCH (dose adjustments list out here)
+- Scan results
 
 </v-clicks>
 
 ---
 
 # Questions
+
+- How common is it, who gets it, and what is the general prognosis?
+- What is the typical presentation?
+- What are the key parts of the workup?
+- How common are nondiagnostic biopsies?
+- What are the key parts of treatment?
+- What is the role of radiotherapy?
+- How should we approach post-treatment surveillance?
+- What are the long-term adverse effects of surviving therapy?
 
 How.<sup>1</sup>
 
@@ -102,24 +139,134 @@ How.<sup>1</sup>
 </Footnotes>
 
 ---
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: http://placekitten.com/200/300
----
-
 
 # Epidemiology
 
-<v-clicks>
+---
 
-- errbody got it
+# S/sx prevalence at presentation (~%)
 
-</v-clicks>
 
+<table class="tg">
+<tbody>
+
+<tr>
+ <td> Tumor size &ge;10cm<sup>1</sup> </td>
+ <td> 60 </td>
+</tr>
+
+<tr>
+ <td> Clinical SVC syndrome<sup>1</sup> </td>
+ <td> 55 </td>
+</tr>
+
+<tr>
+ <td> Radiographic SVC compromise<sup>1</sup> </td>
+ <td> 80 </td>
+</tr>
+
+<tr>
+ <td> Pleural effusion<sup>2</sup> </td>
+ <td> 50 </td>
+</tr>
+
+<tr>
+ <td> VTE<sup>3</sup> </td>
+ <td> 35 </td>
+</tr>
+
+<tr>
+ <td> B symptoms<sup>4</sup> </td>
+ <td> 30-50 </td>
+</tr>
+
+</tbody>
+</table>
 
 <Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com">Footnote</a></Footnote>
+  <Footnote :number=1><a href="https://doi.org/10.1002/1097-0142(19881101)62:9%3C1893::aid-cncr2820620904%3E3.0.co;2-x">Cancer 1988</a></Footnote>
+  <Footnote :number=2><a href="https://doi.org/10.1056/NEJMoa1214561">NEJM 2013</a></Footnote>
+  <Footnote :number=3><a href="https://doi.org/10.1016/j.thromres.2010.08.017">Thrombosis Research 2010</a></Footnote>
+  <Footnote :number=4><a href="https://doi.org/10.1093/annonc/mdj030">Annals of Oncology 2006</a></Footnote>
 </Footnotes>
+
+<!-- Cancer 1988 paper:
+     Mass Gen 1976-1985,
+     20F and 10M,
+     median age 34,
+     CHOP+RT = 80% CR, 60% PFS at 5y,
+     tumor bulk predicted tx failure.
+
+     Plenty of older papers correlated pleural effusion, VTE, and tumor bulk with worse outcomes,
+     but the new treatments (DA-R-EPOCH) are so good that the old prognostic indicators are less important.
+     Extent of extranodal disease still seems to matter (more predictive of CNS involvement, maybe relapse),
+     but less than it used to.
+-->
+
+---
+
+# Selected clinicopathological features (~%)
+
+
+<table class="tg">
+<tbody>
+
+
+<tr>
+ <td> Bone marrow involvement<sup>1</sup> </td>
+ <td> 1-5 </td>
+</tr>
+
+<!-- No need for BMBx. -->
+<!-- If you're having a hard time getting tissue from elsewhere -->
+<!-- and the PET lights up in the marrow, would be reasonable to BMBx. -->
+<!-- Al Shemmar 2014 reported 11% BMBx+ (and I've seen reviews cite this number since it's more recent), -->
+<!-- but that was 3/28 pts, every other study that reports BMBx data shows low single digits. -->
+
+<tr>
+ <td> CNS involvement<sup>2</sup> </td>
+ <td> 5-10 </td>
+</tr>
+
+<!-- Also no need for LP and IT Cx. -->
+<!-- Most studies don't report out CNS involvement. -->
+<!-- The higher end of the range seems to be related to extensive extranodal disease -->
+<!-- (i.e. if there's not much extranodal disease, v unlikely to have CNS disease). -->
+<!-- Relapsed disease also has a higher propensity for the CNS. -->
+<!-- One reasonable approach would be to save LP and IT Cx for presentations w extensive extranodal disease, -->
+<!-- CNS sx, and relapses. -->
+
+<tr>
+ <td> Marked fibrosis<sup>3</sup> </td>
+ <td> 25 </td>
+</tr>
+
+<!-- Most samples have some fibrosis. -->
+<!-- A significant amount have so much fibrosis that it's hard to make a diagnosis. -->
+<!-- (as with cHL, difficulty in getting a tissue diagnosis is itself a clue) -->
+<!-- Core bx are often not enough. -->
+<!-- Mediastinoscopy or similarly invasive and comprehensive bx approaches are needed in many cases. -->
+<!-- There are rare cases that do not have apparent disease in the mediastinum, -->
+<!-- in which case you need a smart pathologist to run all the right IHC and genetic tests to get to an answer. -->
+<!-- The fibrosis also suggests some of the difficulties -->
+<!-- in interpreting PET-CT (and images in general): some residual scar tissue is common. -->
+
+</tbody>
+</table>
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://doi.org/10.3389/fonc.2021.654854">Frontiers in Oncology 2021</a></Footnote>
+  <Footnote :number=2><a href="https://doi.org/10.1200/jco.1999.17.8.2479">JCO 1999</a></Footnote>
+  <Footnote :number=3><a href="https://doi.org/10.1097/00000478-199607000-00012">Am J Surg Pathol 1996</a></Footnote>
+</Footnotes>
+
+<!-- Cancer 1988 paper:
+     Mass Gen 1976-1985,
+     20F and 10M,
+     median age 34,
+     CHOP+RT = 80% CR, 60% PFS at 5y,
+     tumor bulk predicted tx failure.
+-->
 
 ---
 
@@ -143,13 +290,16 @@ figureUrl: http://placekitten.com/200/300
 # Management
 
 ---
+
 layout: index
 indexEntries:
-  - { title: "HemOnc.org entry", uri: "https://hemonc.org" }
-  - { title: "NCCN Guidelines", uri: "https://www.nccn.org/professionals/physician_gls" }
-  - { title: "PathologyOutline", uri: "https://www.pathologyoutlines.com" }
-  - { title: "", uri: "" }
-indexRedirectType: external
+
+- { title: "HemOnc.org entry", uri: "https://hemonc.org" }
+- { title: "NCCN Guidelines", uri: "https://www.nccn.org/professionals/physician_gls" }
+- { title: "PathologyOutline", uri: "https://www.pathologyoutlines.com" }
+- { title: "", uri: "" }
+  indexRedirectType: external
+
 ---
 
 # Resources

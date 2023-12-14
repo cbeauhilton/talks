@@ -2,9 +2,9 @@
 theme: academic
 layout: cover
 class: text-white
-coverAuthor: beau hilton 
+coverAuthor: beau hilton
 coverAuthorUrl: https://www.beauhilton.com
-coverDate: "2023-xx-xx"
+coverDate: "2024-xx-xx"
 themeConfig:
   paginationX: r
   paginationY: t
@@ -12,7 +12,7 @@ themeConfig:
 title: template!
 info: |
   # Template
-  Case Conference 2023-xx-xx, [Beau Hilton](https://www.beauhilton.com)
+  Case Conference 2024-xx-xx, [Beau Hilton](https://www.beauhilton.com)
 
 ---
 
@@ -34,9 +34,21 @@ Footnotable.<sup>1</sup>
 
 ---
 
+# Copy the template folder
+
+<!-- TODO: make a shell script (or whatever) to set all of this up automagically -->
+<!-- Should only need the title of the talk and, optionally, the date. -->
+
+```sh
+cp -r template <<something>>
+```
+
+---
+
 # Set up js
 
 Don't forget to add the entry to `topics.js`
+
 
 ```js {1,5-9}
 import <<Something>> from "./<<something>>/assets/logo.svg?url";
@@ -90,6 +102,41 @@ Once upon a time...
 Exam notable for ...
 
 </v-clicks>
+
+---
+
+# CT
+
+<!-- If I was smart I would write a Vue component to make interactive imaging.
+     It would be really nice to take in a folder of images,
+     rather than a manually typed list of discrete links.
+     But this works:
+     bastardized list css and layered jpgs.
+-->
+
+<style>
+li{
+    position:absolute;
+    top:30;
+    left:100;
+    list-style-type: none;
+};
+</style>
+
+<v-clicks class="fixed top-0 left-50 right-0">
+
+- ![img](https://prod-images-static.radiopaedia.org/images/307912/3f8366bb1b40f6b0c20b80299549fc_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307913/a676306c71fffbb07ae4065eb363f8_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307914/3d4c35c6c4a0d0f2c65c6cd89d8ca6_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307915/32ca2f266135f16c237af52af32bf7_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307916/a15c4faa7d71b55847c1e4b16cefe8_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307917/63568c692e403123a8679c2225a89c_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307918/b59d456c09c7a6d764297a6c3037d2_big_gallery.jpg),
+- ![img](https://prod-images-static.radiopaedia.org/images/307920/5d10c4623cfec36554f9e61f3bba4e_big_gallery.jpg),
+
+</v-clicks>
+
+<div class="-translate-x-11 translate-y-105"><a class="text-xs">https://radiopaedia.org/cases/8655</a></div>
 
 ---
 
@@ -158,16 +205,16 @@ indexRedirectType: external
 
 # Bibliography
 
-Use HTML export from Zotero. 
+Use HTML export from Zotero.
 It's great.
 
 - R-click on the collection name (or highlight all the citations you want)
 - "Create Bibliography from Collection" (APA is pretty good, doesn't include numbering [which is good], does include hyperlinks)
-- Output Mode: Bibliography 
+- Output Mode: Bibliography
 - Output Method: Save as HTML
 - copy all the div/span cites and replace the inner stuff below
 
-Looks kinda like the following 
+Looks kinda like the following
 (note I changed the text size with `text-sm` from WindiCSS):
 
 <div class="csl-bib-body text-sm" style="line-height: 1.35; margin-left: 2em; text-indent:-2em;">
