@@ -12,22 +12,22 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout source
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: setup nodejs
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: latest
 
-      - uses: pnpm/action-setup@v2.2.4
+      - uses: pnpm/action-setup@v2.4.0
         name: install pnpm
         id: pnpm-install
         with:
-          version: 8
+          version: latest
           run_install: false
 
       - name: get pnpm store directory
@@ -61,6 +61,6 @@ jobs:
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        uses: careflow/netlify-actions/cli@master
+        uses: netlify/actions/cli@master
         with:
           args: deploy --prod --dir dist/
