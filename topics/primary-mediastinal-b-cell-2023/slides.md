@@ -69,7 +69,7 @@ li{
     top:30;
     left:100;
     list-style-type: none;
-};
+}
 </style>
 
 <v-clicks class="fixed top-0 left-50 right-0">
