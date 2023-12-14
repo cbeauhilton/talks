@@ -8,7 +8,7 @@ on:
   pull_request:
     branches:
       - main
-  workflow_dispatch:      
+  workflow_dispatch:
 
 jobs:
   build:
@@ -21,13 +21,13 @@ jobs:
       - name: setup nodejs
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
       - uses: pnpm/action-setup@v2.2.4
         name: install pnpm
         id: pnpm-install
         with:
-          version: 7
+          version: 8
           run_install: false
 
       - name: get pnpm store directory
