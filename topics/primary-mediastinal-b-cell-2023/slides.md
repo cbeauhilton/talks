@@ -346,7 +346,7 @@ Wrote for R-EPOCH to start next day.
 </div>
 <div>
 <img class="flex translate-x-23 h-75 hover:scale-130 hover:opacity-100" src="/images/pmbcl-cardiotox.png" />
-<div class="text-xs text-center">BJH 2018: R-CHOP vs DA-R-EPOCH. </div>
+<div class="text-xs text-center">NEJM 2013: No increased cardiotoxicity. </div>
 </div>
 </div>
 
