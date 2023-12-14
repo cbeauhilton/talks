@@ -114,14 +114,6 @@ Mostly fibrotic tissue, "like chopping through wood".
 
 Wrote for R-EPOCH to start next day.
 
-(results came back a few days later: mostly fibrosis, crush artifact, necrosis
-
-**mature B-cell markers**: CD20+, CD45+, PAX5+.
-
-**PMBCL**: CD23 patchy ( -ve in DLBCL, cHL, MGZL),
-CD30 patchy (30% DLBCL, but weak+ in most PMBCL),
-CD10- (nonGC), equivocal [BCL2/6, c-MYC, MUM1],
-EBER-
 
 </v-clicks>
 
@@ -133,6 +125,12 @@ EBER-
 
 - FDG-PET CT: 9.4x6.3cm mediastinal mass, LAD, diffuse axial skeleton uptake (hyperplasia vs infiltration)
 - BMBx: NED
+- Mediastinal bx: results came back a few days later, mostly fibrosis, crush artifact, necrosis
+    - **mature B-cell markers**: CD20+, CD45+, PAX5+.
+    - **PMBCL**: CD23 patchy ( -ve in DLBCL, cHL, MGZL),
+        CD30 patchy (30% DLBCL, but weak+ in most PMBCL),
+        CD10- (nonGC), equivocal [BCL2/6, c-MYC, MUM1],
+        EBER-
 - SVC syndrome: much back and forth re SVC stent, RT.
     - Ultimately pursued neither, sx slowly improved.
 
