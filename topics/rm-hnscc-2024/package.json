@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /rm-hnscc-2024/ --out ../../dist/rm-hnscc-2024",
+    "export": "slidev export --output ../../dist/rm-hnscc-2024/rm-hnscc-2024.pdf"
+  }
+}
