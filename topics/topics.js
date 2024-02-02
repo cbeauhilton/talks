@@ -12,7 +12,7 @@ import Octopus from "./template/assets/logo.svg?url";
 
 export default [
   {
-    title: '2024-02-02 - Primary Mediastinal B-Cell Lymphoma',
+    title: '2024-02-02 - R/M HNSCC',
     logo: RMHNSCC2024,
     route: '/rm-hnscc-2024/',
   },
