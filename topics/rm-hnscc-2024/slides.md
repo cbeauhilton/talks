@@ -20,20 +20,6 @@ info: |
 
 ---
 
-# Copyable things
-
-<v-clicks>
-
-</v-clicks>
-
-Footnotable.<sup>1</sup>
-
-<Footnotes separator>
-  <Footnote :number=1><a href="https://beauhilton.com" rel="noreferror" target="_blank">Footnote</a></Footnote>
-</Footnotes>
-
----
-
 # Case presentation
 
 60M,
