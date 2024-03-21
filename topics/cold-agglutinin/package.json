@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /cold-agglutinin/ --out ../../dist/cold-agglutinin",
+    "export": "slidev export --output ../../dist/cold-agglutinin/cold-agglutinin.pdf"
+  }
+}
