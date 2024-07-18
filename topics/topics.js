@@ -1,3 +1,4 @@
+import InductionHNSCC2024 from "./induction-hnscc-2024/assets/logo.svg?url";
 import ColdAgglutinin from "./cold-agglutinin/assets/logo.svg?url";
 import RMHNSCC2024 from "./rm-hnscc-2024/assets/logo.svg?url";
 import PMBCLymphoma from "./primary-mediastinal-b-cell-2023/assets/logo.svg?url";
@@ -13,63 +14,68 @@ import Octopus from "./template/assets/logo.svg?url";
 
 export default [
   {
-    title: '2024-02-22 - Cold Agglutinin',
+    title: "2024-07-19 - HNSCC Induction",
+    logo: InductionHNSCC2024,
+    route: "/induction-hnscc-2024/",
+  },
+  {
+    title: "2024-02-22 - Cold Agglutinin",
     logo: ColdAgglutinin,
-    route: '/cold-agglutinin/',
+    route: "/cold-agglutinin/",
   },
   {
-    title: '2024-02-02 - R/M HNSCC',
+    title: "2024-02-02 - R/M HNSCC",
     logo: RMHNSCC2024,
-    route: '/rm-hnscc-2024/',
+    route: "/rm-hnscc-2024/",
   },
   {
-    title: '2023-12-15 - Primary Mediastinal B-Cell Lymphoma',
+    title: "2023-12-15 - Primary Mediastinal B-Cell Lymphoma",
     logo: PMBCLymphoma,
-    route: '/primary-mediastinal-b-cell-2023/',
+    route: "/primary-mediastinal-b-cell-2023/",
   },
   {
-    title: '2023-09-01 - HNSCC Induction',
+    title: "2023-09-01 - HNSCC Induction",
     logo: InductionHNSCC2023,
-    route: '/induction-hnscc-2023/',
+    route: "/induction-hnscc-2023/",
   },
   {
-    title: '2023-04-21 - Scholarship Committee',
+    title: "2023-04-21 - Scholarship Committee",
     logo: ScholarshipCommittee2023,
-    route: '/scholarship-committee-2023/',
+    route: "/scholarship-committee-2023/",
   },
   {
-    title: '2023-04-13 - HemOnc.org',
+    title: "2023-04-13 - HemOnc.org",
     logo: HemOncOrg2023,
-    route: '/hemonc-org-2023/',
+    route: "/hemonc-org-2023/",
   },
   {
-    title: '2023-03-31 - Lower-Risk MDS',
+    title: "2023-03-31 - Lower-Risk MDS",
     logo: MDSLowerRisk,
-    route: '/mds-lower-risk/',
+    route: "/mds-lower-risk/",
   },
   {
-    title: '2023-02-10 - Anaplastic Thyroid Carcinoma',
+    title: "2023-02-10 - Anaplastic Thyroid Carcinoma",
     logo: AnaplasticThyroid,
-    route: '/anaplastic-thyroid/',
+    route: "/anaplastic-thyroid/",
   },
   {
-    title: '2022-12-16 - Induction for H&N SCC',
+    title: "2022-12-16 - Induction for H&N SCC",
     logo: InductionHNSCC,
-    route: '/induction-hnscc/',
+    route: "/induction-hnscc/",
   },
   {
-    title: '2022-10-28 - Pheochromocytoma',
+    title: "2022-10-28 - Pheochromocytoma",
     logo: Pheochromocytoma,
-    route: '/pheochromocytoma/',
+    route: "/pheochromocytoma/",
   },
   {
-    title: '2022-09-09 - B-ALL in Older Adults',
+    title: "2022-09-09 - B-ALL in Older Adults",
     logo: BALLinOlderAdults,
-    route: '/b-all-older-adults/',
+    route: "/b-all-older-adults/",
   },
   {
-    title: '00 template',
+    title: "00 template",
     logo: Octopus,
-    route: '/template/',
+    route: "/template/",
   },
-].sort((a,b) => (a.title > b.title) ? -1 : ((a.title < b.title) ? 1 : 0))
+].sort((a, b) => (a.title > b.title ? -1 : a.title < b.title ? 1 : 0));
