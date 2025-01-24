@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir ../dist",
+    "build": "vite build --emptyOutDir --outDir ../dist",
     "preview": "vite preview"
   }
 }

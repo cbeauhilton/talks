@@ -1,4 +1,5 @@
 import InductionHNSCC2024 from "./induction-hnscc-2024/assets/logo.svg?url";
+import ColdAgglutinin2025 from "./cold-agglutinin-2025/assets/logo.svg?url";
 import ColdAgglutinin from "./cold-agglutinin/assets/logo.svg?url";
 import RMHNSCC2024 from "./rm-hnscc-2024/assets/logo.svg?url";
 import PMBCLymphoma from "./primary-mediastinal-b-cell-2023/assets/logo.svg?url";
@@ -13,6 +14,11 @@ import BALLinOlderAdults from "./b-all-older-adults/assets/logo.svg?url";
 import Octopus from "./template/assets/logo.svg?url";
 
 export default [
+  {
+    title: "2025-01-23 - Cold Agglutinin",
+    logo: ColdAgglutinin2025,
+    route: "/cold-agglutinin-2025/",
+  },
   {
     title: "2024-07-19 - HNSCC Induction",
     logo: InductionHNSCC2024,
