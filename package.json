@@ -16,7 +16,7 @@
     "export": "pnpm -r run export",
     "redirs": "find dist -iname _redirects | grep -v dist/_redirects | xargs cat >> dist/_redirects",
     "mis": "pnpm run clean && pnpm run build && pnpm run redirs",
-    "preview": "cd landing && pnpm run build && ls && vite preview"
+    "preview": "cd dist && vite preview"
   },
   "dependencies": {
     "@slidev/cli": "^0.45.0",

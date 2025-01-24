@@ -18,18 +18,273 @@ info: |
 # Cold Agglutinin Disease
 
 ---
-
-layout: figure
+layout: figure-side
 figureFootnoteNumber: 1
-figureUrl: ./images/mxn.png
-
+figureUrl: ./images/haikouichthys.svg
 ---
 
 # 500 Million BCE
 
+## When we were fish
+
+<v-clicks>
+
+IgM evolves.
+
+Ancestors of _streptococcus_ and _listeria_ have proteins closely resembling the I antigen.
+
+Sea water is ~room temperature (20-25C).
+
+</v-clicks>
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/humans.png
 ---
 
-# Case presentation
+# 3 Million BCE
+
+## Then we were us
+
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/humans-hla.png
+---
+
+# 3 Million BCE
+
+## Then we were us
+
+<v-clicks>
+
+We get wild with our immune systems.
+
+But IgM sticks around.
+
+</v-clicks>
+
+---
+layout: figure
+figureFootnoteNumber: 1
+figureUrl: ./images/hippocrates.jpg
+---
+
+# 460 BCE
+
+## Hippocrates does his thing
+
+<Footnotes separator>
+  <Footnote :number=1>Hippocrates by <a href="https://en.wikipedia.org/wiki/en:Anne-Louis_Girodet_de_Roussy-Trioson">Anne-Louis Girodet de Roussy-Trioson</a> (1767-1824). Public domain.</Footnote>
+</Footnotes>
+
+
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/de-urinis.png
+---
+
+# 1200s
+
+Johannes Actuarius, Constantinople court physician, publishes _De Urinis_, which notes: "Yea indeed an extremely black urine... signifies extreme chilliness."
+
+<v-clicks>
+
+(syphilis causes paroxysmal cold hemoglobinuria, so used to be much more common)
+
+(but watch out for a resurgence - syphilis cases went up 80%, to 207,000 in 2022)
+
+</v-clicks>
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/poor-pup.png
+---
+
+# 1800s
+
+Trypanosomiasis (N'gana, sleeping sickness) is found to cause deep anemias, partially via hemolysis.
+
+https://vetclinpathimages.com/2018/04/27/trypanosoma/
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/trypanosomes-bovine.jpg
+---
+
+# 1898
+
+Mssrs. Kanthack, Durham, and Blandford describe agglutination
+in red blood cells of animals infected with trypanosomes.
+
+"Instead of forming rouleaux,
+the red corpuscles tend to clump into masses and to lose their outlines,
+especially when the anaemia is pronounced (rabbit, ass, and horse).
+The serum of such blood, when mixed with normal blood of the same species of animal,
+causes the red corpuscles to clump together also."
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/karl.jpg
+---
+
+# 1903
+
+Karl Landsteiner publishes "About Relationships Between the Blood Serum and the Body Cells"
+(_Über Beziehungen zwischen dem Blutserum und den Körperzellen_),
+which contains a description of blood agglutination at cold temperatures (thermal amplitude 0-5C).
+
+He's the guy who discovered blood types,
+under the term "iso-agglutination,"
+and won the Nobel Prize in Medicine for this in 1930.
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/mycoplasma.jpg
+---
+
+# 1918
+
+Clough and Richter publish "A study of an autoagglutinin occurring in a human serum,"
+first definite cases of cold agglutination in humans,
+describing the relationship between agglutination, hemolysis, and pneumonia.
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/churchill.jpg
+---
+
+# 1937
+
+McCombs and McElroy note that the huge increase in surgical transfusions
+since Landsteiner's discovery has revealed a number of cases of cold agglutination
+found in the blood bank (thermal amplitude 0-25 C), confusing technicians nation-wide.
+
+(And occasionally leading to death)
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/coat.png
+---
+
+# 1946
+
+Lubinski and Goldbloom collect and describe 7 cases of cold agglutination with a thermal amplitude of 0-37C,
+all associated with hemolytic anemia (5 primary cases, 1 sepsis, 1 syphilis).
+
+(CAD incidence: ~2 per million per year)
+
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/electro.png
+---
+
+# 1957
+
+Christenson et al perform the first isolation of a monoclonal protein, a cold agglutinin.
+One of the pts also has a cryoglobulin.
+
+---
+layout: figure
+figureFootnoteNumber: 1
+figureUrl: ./images/mxn.png
+---
+
+# Pathophysiology
+
+Berentsen,
+_Frontiers in Immunology_,
+2020
+
+<v-clicks>
+
+_whence IgM?_
+
+</v-clicks>
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/olesen.png
+---
+
+# 1964
+
+Olesen publishes the first paper with a successful drug treatment for CAD,
+choosing chlorambucil based on the then-recent success of this drug in Waldenstrom macroglobulinemia.
+Follow-up in 1970 with 4 pts has similar results.
+
+(One pt got cyclophosphamide for 4mo, switched to chlorambucil later on d/t drAE).
+
+---
+
+# 1997
+
+Rituximab comes to market.
+
+## 1998
+
+Lee and Kueck try rituximab (375 x4) in a pt w CAD, and it works.
+
+## 2001
+
+Berentsen et al report on a small prospective ritux study: 1 CR, 3 PR, 2 no response.
+
+## 2006, 2013
+
+Berentsen et al retrospective study: ritux-based regimens RR 67-83%.
+
+---
+
+# 2017
+
+Berentsen et al, prospective study using BR: 71% RR, 40% CR, 31% PR. 50% RR in the retreatment setting. TTR 2mo. 77% response rate at 5y. Median DOR >88mo.
+
+## 2018
+
+Rossi et al report on 2L bortezomib (GIMEMA) (single cycle): 32% RR, median DOR 16mo.
+
+## 2020, 2021
+
+Case reports on CAS d/t pembro (Atiq 2020) and atezo (Acikgoz 2021).
+
+---
+layout: figure-side
+figureFootnoteNumber: 1
+figureUrl: ./images/cadenza.png
+---
+
+# 2021
+
+Roth et al report (NEJM) on sutimlimab monotherapy (CARDINAL) (nonrandomized)
+
+## 2022
+
+Roth et al report (Blood) on sutimlimab monotherapy (CADENZA) (phase III placebo-controlled RCT)
+
+---
+layout: figure
+figureFootnoteNumber: 1
+figureUrl: ./images/teae-sutimlimab.png
+---
+
+# Blood 2022, Roth et al
+
+---
+
+# 2024
 
 72F, p/w hgb 3.8. A little tired.
 
@@ -54,32 +309,16 @@ Cold agglutinin titre: way >64
 </v-clicks>
 
 ---
-
 layout: figure
 figureFootnoteNumber: 1
-figureUrl: ./images/mxn.png
-
+figureUrl: ./images/dx-algo.png
 ---
 
-# Pathophysiology
+# Diagnostic algorithm
 
-Berentsen,
+Berentsen, Fattizzo, Barcellini,
 _Frontiers in Immunology_,
-2020
-
----
-
-# Confirming the diagnosis
-
-<v-clicks>
-
-- flow cytometry
-- SPEP, SFLC (usu IgM kappa)
-- maximal thermal amplitude (>28C)
-- cold-temperature titre (>=64 @ 4C)
-- BMBx (sometimes)
-
-</v-clicks>
+2023
 
 ---
 
@@ -97,22 +336,28 @@ _Frontiers in Immunology_,
 </v-clicks>
 
 ---
-
 layout: figure
 figureFootnoteNumber: 1
-figureUrl: ./images/dx-algo.png
+figureUrl: ./images/tx-data.png
+---
+
+# Tx options overview
+
+Berentsen, Fattizzo, Barcellini, _Frontiers in Immunology_ 2023
+
+---
+layout: figure
+figureFootnoteNumber: 1
+figureUrl: ./images/tx-algo.png
+---
+
+# Tx sequencing overview
+
+Berentsen, Fattizzo, Barcellini, _Frontiers in Immunology_ 2023
 
 ---
 
-# Diagnostic algorithm
-
-Berentsen, Fattizzo, Barcellini,
-_Frontiers in Immunology_,
-2023
-
----
-
-# Case presentation
+# And the kitchen sink
 
 <v-clicks>
 
@@ -122,259 +367,9 @@ _Frontiers in Immunology_,
 - 2018: rituximab + bortezomib
 - 2019: rituximab + bendamustine
 - 2022: sutimlimab recommended
+- 2024: sutimlimab given. Kind of works sometimes for a while. Flares in late 2024/early 2025. 
 
 </v-clicks>
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/de-urinis.png
-
----
-
-# A jaunt through history
-
-## 1200s
-
-Johannes Actuarius, Constantinople court physician, publishes _De Urinis_, which notes: "Yea indeed an extremely black urine... signifies extreme chilliness."
-
-<v-clicks>
-
-(syphilis causes paroxysmal cold hemoglobinuria, so used to be much more common)
-
-(but watch out for a resurgence - syphilis cases went up 80%, to 207,000 in 2022)
-
-</v-clicks>
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/poor-pup.png
-
----
-
-# A jaunt through history
-
-## 1800s
-
-Trypanosomiasis (N'gana, sleeping sickness) is found to cause deep anemias, partially via hemolysis.
-
-https://vetclinpathimages.com/2018/04/27/trypanosoma/
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/trypanosomes-bovine.jpg
-
----
-
-# A jaunt through history
-
-## 1898
-
-Mssrs. Kanthack, Durham, and Blandford describe agglutination
-in red blood cells of animals infected with trypanosomes.
-
-"Instead of forming rouleaux,
-the red corpuscles tend to clump into masses and to lose their outlines,
-especially when the anaemia is pronounced (rabbit, ass, and horse).
-The serum of such blood, when mixed with normal blood of the same species of animal,
-causes the red corpuscles to clump together also."
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/karl.jpg
-
----
-
-# A jaunt through history
-
-## 1903
-
-Karl Landsteiner publishes "About Relationships Between the Blood Serum and the Body Cells"
-(_Über Beziehungen zwischen dem Blutserum und den Körperzellen_),
-which contains a description of blood agglutination at cold temperatures (thermal amplitude 0-5C).
-
-He's the guy who discovered blood types,
-under the term "iso-agglutination,"
-and won the Nobel Prize in Medicine for this in 1930.
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/mycoplasma.jpg
-
----
-
-# A jaunt through history
-
-## 1918
-
-Clough and Richter publish "A study of an autoagglutinin occurring in a human serum,"
-first definite cases of cold agglutination in humans,
-describing the relationship between agglutination, hemolysis, and pneumonia.
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/churchill.jpg
-
----
-
-# A jaunt through history
-
-## 1937
-
-McCombs and McElroy note that the huge increase in surgical transfusions
-since Landsteiner's discovery has revealed a number of cases of cold agglutination
-found in the blood bank (thermal amplitude 0-25 C), confusing technicians nation-wide.
-
-(And occasionally leading to death)
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/coat.png
-
----
-
-# A jaunt through history
-
-## 1946
-
-Lubinski and Goldbloom collect and describe 7 cases of cold agglutination with a thermal amplitude of 0-37C,
-all associated with hemolytic anemia (5 primary cases, 1 sepsis, 1 syphilis).
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/electro.png
-
----
-
-# A jaunt through history
-
-## 1957
-
-Christenson et al perform the first isolation of a monoclonal protein, a cold agglutinin.
-One of the pts also has a cryoglobulin.
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/olesen.png
-
----
-
-# A jaunt through history
-
-## 1964
-
-Olesen publishes the first paper with a successful drug treatment for CAD,
-choosing chlorambucil based on the then-recent success of this drug in Waldenstrom macroglobulinemia.
-Follow-up in 1970 with 4 pts has similar results.
-
-(One pt got cyclophosphamide for 4mo, switched to chlorambucil later on d/t drAE).
-
----
-
-# A jaunt through history
-
-## 1997
-
-Rituximab comes to market.
-
-## 1998
-
-Lee and Kueck try rituximab (375 x4) in a pt w CAD, and it works.
-
-## 2001
-
-Berentsen et al report on a small prospective ritux study: 1 CR, 3 PR, 2 no response.
-
-## 2006, 2013
-
-Berentsen et al retrospective study: ritux-based regimens RR 67-83%.
-
----
-
-# A jaunt through history
-
-## 2017
-
-Berentsen et al, prospective study using BR: 71% RR, 40% CR, 31% PR. 50% RR in the retreatment setting. TTR 2mo. 77% response rate at 5y. Median DOR >88mo.
-
-## 2018
-
-Rossi et al report on 2L bortezomib (GIMEMA) (single cycle): 32% RR, median DOR 16mo.
-
-## 2020, 2021
-
-Case reports on CAS d/t pembro (Atiq 2020) and atezo (Acikgoz 2021).
-
----
-
-layout: figure-side
-figureFootnoteNumber: 1
-figureUrl: ./images/cadenza.png
-
----
-
-# A jaunt through history
-
-## 2021
-
-Roth et al report (NEJM) on sutimlimab monotherapy (CARDINAL) (nonrandomized)
-
-## 2022
-
-Roth et al report (Blood) on sutimlimab monotherapy (CADENZA) (phase III placebo-controlled RCT)
-
----
-
-layout: figure
-figureFootnoteNumber: 1
-figureUrl: ./images/teae-sutimlimab.png
-
----
-
-# A jaunt through history
-
-## Blood 2022, Roth et al
-
----
-
-layout: figure
-figureFootnoteNumber: 1
-figureUrl: ./images/tx-data.png
-
----
-
-# Tx options overview
-
-Berentsen, Fattizzo, Barcellini, _Frontiers in Immunology_ 2023
-
----
-
-layout: figure
-figureFootnoteNumber: 1
-figureUrl: ./images/tx-algo.png
-
----
-
-# Tx sequencing overview
-
-Berentsen, Fattizzo, Barcellini, _Frontiers in Immunology_ 2023
 
 ---
 

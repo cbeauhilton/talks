@@ -39,13 +39,16 @@
                       enable = true;
                       install.enable = true;
                     };
+                    npm = {
+                      enable = true;
+                    };
                   };
 
-                  enterShell = ''
-                    hello
-                  '';
+                  # enterShell = ''
+                  #   hello
+                  # '';
 
-                  processes.hello.exec = "hello";
+                  # processes.hello.exec = "hello";
                 }
               ];
             };
